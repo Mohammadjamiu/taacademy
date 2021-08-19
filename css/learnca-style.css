@@ -121,16 +121,16 @@ p {
   align-items: center;
   border: 2px solid var(--primary-color);
   border-radius: 0.4rem;
-  /* height: 5rem; */
+  height: 6rem;
   transition: background 150ms ease-in-out;
 }
 
 .prev-lca svg {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 .next-lca svg {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .prev-lca p,
