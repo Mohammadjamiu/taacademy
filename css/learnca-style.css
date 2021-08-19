@@ -121,7 +121,7 @@ p {
   align-items: center;
   border: 2px solid var(--primary-color);
   border-radius: 0.4rem;
-  height: 5rem;
+  /* height: 5rem; */
   transition: background 150ms ease-in-out;
 }
 
