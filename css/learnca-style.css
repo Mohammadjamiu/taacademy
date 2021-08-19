@@ -1,18 +1,14 @@
-
-h2{
+h2 {
   font-size: 2.2rem;
-  font-family: 'MuliBold',sans-serif;
+  font-family: "MuliBold", sans-serif;
   margin: 1rem 0;
   text-transform: capitalize;
 }
 
-p{
+p {
   font-size: 1.6rem;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
-
-
-
 
 .toc-whole {
   position: fixed;
@@ -115,6 +111,7 @@ p{
 
   gap: 20px;
   margin: 2rem auto 3rem;
+  overflow-x: hidden;
 }
 
 .prev-lca,
