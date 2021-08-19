@@ -1719,8 +1719,11 @@
         <div class="trademark">
           <p>
             ©
-            <span class="current-year"></span>,
-            Tooabstractive.io - Limit The Boring Stuff.
+            <script>
+              var CurrentYear = new Date().getFullYear();
+              document.write(CurrentYear);
+            </script>
+            , Tooabstractive.io - Limit The Boring Stuff.
             <br />
             Crafted with
             <span
