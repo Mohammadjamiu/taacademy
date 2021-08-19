@@ -1,0 +1,481 @@
+/* @font-face {
+    font-family: "Muli";
+    src: url(/font/Muli-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "MuliItalic";
+    src: url(/font/Muli-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "MuliBold";
+    src: url(/font/Muli-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+  } */
+
+:root {
+  --black-shade: #222325;
+
+  --footer-color: #fbfbfb;
+  --primary-color: #2d79e4;
+  --complementary-color: #e4982d;
+
+  --slidebarb-color: #061830;
+  --slidebar-color: #091b31;
+}
+
+/* ! Hero section style */
+
+section.hero {
+  background-color: var(--slidebar-color);
+  padding: 4rem 0;
+  /* background:#222325; */
+}
+
+.hero .limit {
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+  color: #fff;
+}
+
+.hero .limit::after {
+  content: "";
+  background-color: var(--primary-color);
+  /* background: #fff; */
+  height: 0.2rem;
+  width: 14rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+.hero .stuff {
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+  color: #fff;
+}
+
+.hero .stuff::after {
+  content: "";
+  background-color: var(--primary-color);
+  /* background: #fff; */
+  height: 0.2rem;
+  width: 6rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+.hero .hero-say {
+  margin: 2.5rem 0;
+  max-width: 75%;
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #f1f1f1;
+}
+
+.hero-btn {
+  font-size: 1.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.hero .svg-reading-box {
+  /* background-color: var(--primary-color); */
+  margin: 3rem 0 0 0;
+  position: relative;
+  height: 25rem;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero .svg-reading-image {
+  /* position: absolute; */
+  height: 100%;
+  position: absolute;
+  right: -1rem;
+}
+
+/* ! Our post style  */
+
+h2.curious {
+  font-size: 2.2rem;
+  margin: 3rem 0 1rem;
+
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.curious::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 10rem;
+  display: block;
+  border-radius: 0.1rem;
+  color: var(--black-shade);
+}
+
+.posts {
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  /* width: 28rem; */
+}
+
+.post {
+  /* background-color: orange; */
+  display: block;
+
+  height: 19rem;
+  width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  padding: 2rem 1.5rem;
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+
+.post h3 {
+  font-size: 1.6rem;
+  color: var(--black-shade);
+}
+
+.post-1-more {
+  position: absolute;
+  bottom: 2.2rem;
+  right: 2.8rem;
+}
+
+.explore-more {
+  display: inline-block;
+}
+
+.explore-more h2 {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-size: 1.65rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+/* ! Ask Ta style */
+
+section.ask-ta {
+  margin: 5rem 0;
+  padding: 5rem 0;
+  background-color: var(--black-shade);
+}
+
+h2.do-you-want {
+  color: #fff;
+  font-size: 2.2rem;
+  margin-bottom: 0.4rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.do-you-want::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 22rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.problem-solved {
+  color: #fff;
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.problem-solved::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 14rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+.ask-ta p {
+  margin: 4rem 0;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.ask-ta .my-form {
+  background-color: #fff;
+  /* box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2); */
+  box-shadow: 2px 9px 14px rgba(0, 0, 0, 0.2);
+  border-radius: 0.35rem;
+  padding: 3rem;
+  height: 34rem;
+  position: relative;
+  z-index: 100;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+input[type="email"],
+textarea {
+  height: 4rem;
+  border-radius: 0.3rem;
+  border: 1px solid #091b31;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  font-family: "Muli", sans-serif;
+}
+
+textarea {
+  height: 12rem;
+  font-size: 1.45rem;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+  outline-style: none;
+  border: 1px solid var(--primary-color);
+}
+
+.ask-ta button {
+  border: 0;
+  margin-top: 1.8rem;
+  background-color: var(--primary-color);
+  font-size: 1.45rem;
+  font-family: "Muli", sans-serif;
+  color: #fff;
+  transition: background 100ms ease-in-out;
+  display: inline-block;
+}
+
+.ask-ta button:hover,
+.ask-ta button:focus {
+  background-color: var(--slidebar-color);
+}
+
+/* ! Wow electromag style */
+
+section.wow-electromag {
+  /* wow electromag */
+}
+
+h2.the-next,
+h2.the-next-electromag, 
+h2.still-pending {
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.the-next::after {
+  content: "";
+  background-color: var(--complementary-color);
+  height: 0.2rem;
+  width: 21rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.the-next-electromag::after {
+  content: "";
+  background-color: var(--complementary-color);
+  height: 0.2rem;
+  width: 15rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.still-pending::after {
+  content: "";
+  background-color: var(--complementary-color);
+  height: 0.2rem;
+  width: 10rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+.wow-electromag p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.wposts {
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.wpost {
+  color: var(--black-shade);
+  display: block;
+
+  height: 19rem;
+  width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  padding: 2rem 1.5rem;
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+
+.wpost h3 {
+  font-size: 1.6rem;
+}
+.wpost-1-more {
+  position: absolute;
+  bottom: 2.2rem;
+  right: 2.8rem;
+}
+
+.wexplore-more {
+  display: inline-block;
+}
+.wexplore-more h2 {
+  color: var(--complementary-color);
+  text-decoration: underline;
+  font-size: 1.65rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+/* ! Learn one-on-one style */
+
+.learn-one-on-one{
+    background-color: var(--primary-color);
+    /* height: 40rem; */
+padding: 2rem 0 4rem;
+    margin-top: 4rem;
+
+  
+}
+
+.learn-one-on-one .container{
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    
+}
+
+.learn-one-on-one h2{
+    display: inline-block;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    font-family: 'MuliBold', sans-serif;
+   
+
+}
+
+
+
+.learn-one-on-one h2.in-kano::after{
+    content: '';
+    background-color: var(--complementary-color);
+    height: .2rem;
+    width: 16rem;
+    display: block;
+    border-radius: .1rem;
+  
+    
+}
+
+
+.learn-one-on-one h3{
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+
+
+.learn-one-on-one .my-form {
+    background-color: #fff;
+    box-shadow: 2px 9px 14px rgba(0, 0, 0, 0.2);
+    border-radius: 0.35rem;
+    padding: 3rem;
+    height: 30rem;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .learn-one-on-one  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .learn-one-on-one input,
+  .learn-one-on-one textarea {
+    width: 100%;
+  }
+  
+  .learn-one-on-one  input[type="email"],
+  .learn-one-on-one textarea {
+    height: 4rem;
+    border-radius: 0.3rem;
+    border: 1px solid #091b31;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    font-family: "Muli", sans-serif;
+  }
+  
+  .learn-one-on-one textarea {
+    height: 12rem;
+    font-size: 1.45rem;
+  }
+  
+  .learn-one-on-one input[type="email"]:focus,
+  .learn-one-on-one textarea:focus {
+    outline-style: none;
+    border: 1px solid var(--primary-color);
+  }
+  
+  .learn-one-on-one button {
+    border: 0;
+    margin-top: 1.8rem;
+    background-color: var(--complementary-color);
+    font-size: 1.45rem;
+    font-family: "Muli", sans-serif;
+    color: #fff;
+  
+    display: inline-block;
+    transition: background 100ms ease-in-out;
+  }
+  
+  .learn-one-on-one button:hover,
+  .learn-one-on-one button:focus {
+    background-color: var(--slidebar-color);
+  }
+

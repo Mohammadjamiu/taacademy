@@ -1,0 +1,54 @@
+section.ourpost-foreground {
+  background-color: var(--slidebar-color);
+
+  padding: 6rem 0;
+}
+
+section.ourpost-foreground h2 {
+  font-size: 3rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+section.ourpost-foreground h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: capitalize;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+section.our-post {
+  margin: 1rem 0 4.5rem 0;
+}
+
+section.content-section .our-post h2 {
+  margin-top: 4rem;
+}
+
+h2.curious::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 15rem;
+  display: block;
+  border-radius: 0.1rem;
+  color: var(--black-shade);
+}
+
+h2.the-next::after {
+  content: "";
+
+  height: 0.2rem;
+  width: 15rem;
+  display: block;
+  border-radius: 0.1rem;
+  color: var(--black-shade);
+
+  background-color: var(--complementary-color);
+}

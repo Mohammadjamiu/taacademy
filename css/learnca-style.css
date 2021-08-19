@@ -1,0 +1,152 @@
+
+h2{
+  font-size: 2.2rem;
+  font-family: 'MuliBold',sans-serif;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+p{
+  font-size: 1.6rem;
+  font-family: 'Muli', sans-serif;
+}
+
+
+
+
+.toc-whole {
+  position: fixed;
+  z-index: 200;
+  top: 5rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.toc-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  background-color: var(--primary-color);
+  color: #eee;
+  top: 5rem;
+  width: 10rem;
+  padding: 0 0.5rem;
+  border-radius: 0 0.1rem 0.1rem 0;
+  height: 4.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.toc-icon p {
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+}
+
+.toc-icon .menu-line {
+  height: 0.2rem;
+  width: 1.5rem;
+  background-color: #eee;
+  margin: 0.25rem;
+  border-radius: 0.1rem;
+  transition: transform 200ms ease-in-out;
+}
+
+.lca-toc {
+  background-color: var(--slidebar-color);
+  /* background-color: var(--footer-color); */
+  width: 22rem;
+  position: sticky;
+  top: 9.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0 0.2rem 0.2rem 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 70ms ease-out;
+  /* height: ; */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lca-toc a {
+  /* background-color: var(--slidebar-color); */
+  color: rgb(230, 230, 230);
+}
+
+.lca-toc li {
+  padding-bottom: 0.6rem;
+}
+.toc-nav-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media (min-width: 770px) {
+  .toc-whole {
+    margin: 0 2rem;
+    /* height: ; */
+    position: sticky;
+    top: 5rem;
+  }
+
+  .toc-icon {
+    /* display: none; */
+  }
+
+  .lca-toc {
+    margin-top: 1rem;
+  }
+}
+
+.pagebody {
+  position: relative;
+}
+
+.toc-whole {
+  height: 100%;
+}
+
+.lca-navigation {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+
+  gap: 20px;
+  margin: 2rem auto 3rem;
+}
+
+.prev-lca,
+.next-lca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.4rem;
+  height: 5rem;
+  transition: background 150ms ease-in-out;
+}
+
+.prev-lca svg {
+  margin-right: 2rem;
+}
+
+.next-lca svg {
+  margin-left: 2rem;
+}
+
+.prev-lca p,
+.next-lca p {
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+.prev-lca:hover,
+.next-lca:hover {
+  background-color: var(--slidebar-color);
+  border: 0;
+  color: #fff;
+}
