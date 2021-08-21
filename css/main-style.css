@@ -225,11 +225,13 @@ h2.problem-solved::after {
 
 .ask-ta .my-form,
 .my-form-pop {
-  background-color: #081d38;
+  /* background-color: #081d38; */
+  /* background-color: var(--footer-color); */
   /* box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2); */
-  box-shadow: 2px 9px 14px rgba(0, 0, 0, 0.2);
-  border-radius: 0.4rem;
-  padding: 3rem;
+  box-shadow: 2px -1px 12px rgba(0, 0, 0, 0.3);
+  /* box-shadow: -1px 4px 8px rgba(0, 0, 0, 0.2); */
+  border-radius: 0.5rem;
+  padding: 2.5rem;
   height: 34rem;
   position: relative;
   z-index: 100;
@@ -256,7 +258,9 @@ textarea {
   margin-bottom: 1.5rem;
   padding: 1rem;
   font-family: "Muli", sans-serif;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
+  background-color: #081d38;
+  color: #fff;
 }
 
 textarea {
@@ -275,9 +279,10 @@ input[type="file"]{
   height: 4.2rem;
  display: flex;
  padding: auto;
- background-color: var(--slidebarb-color);
+ background-color: #081d38;
  color: var(--footer-color);
  width: 20rem;
+ border-radius: .4rem;
 }
 
 .ask-ta button,
@@ -445,10 +450,11 @@ margin: auto;
 
   background-color: #081d38;
   /* box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2); */
-  box-shadow: 2px 9px 14px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 2px 9px 14px rgba(0, 0, 0, 0.2); */
+  box-shadow: 2px -1px 12px rgba(0, 0, 0, 0.3);
   border-radius: 0.4rem;
-  padding: 3rem;
-  height: 34rem;
+  padding: 2.5rem;
+  height: 30rem;
   position: relative;
   z-index: 100;
 }
@@ -482,6 +488,7 @@ margin: auto;
   padding: 1rem;
   font-family: "Muli", sans-serif;
   background-color: #eeeeee;
+  color: var(--slidebar-color);
 }
 
 .learn-one-on-one textarea {
