@@ -280,7 +280,7 @@ input[type="file"]{
  display: flex;
  padding: auto;
  background-color: #081d38;
- color: var(--footer-color);
+ color: #f4f4f4;
  width: 20rem;
  border-radius: .4rem;
 }
@@ -289,13 +289,15 @@ input[type="file"]{
 .my-form-pop button {
   border: 0;
   margin-top: 1.8rem;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   font-size: 1.45rem;
   font-family: "Muli", sans-serif;
   color: #fff;
   transition: background 100ms ease-in-out;
   display: inline-block;
   border-radius: .4rem;
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
 }
 
 .ask-ta button:hover,
