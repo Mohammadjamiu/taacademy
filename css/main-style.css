@@ -292,12 +292,12 @@ input[type="file"]{
   /* background-color: var(--primary-color); */
   font-size: 1.45rem;
   font-family: "Muli", sans-serif;
-  color: #fff;
+  color: var(--primary-color);
   transition: background 100ms ease-in-out;
   display: inline-block;
   border-radius: .4rem;
   border: 2px solid var(--primary-color);
-  background-color: transparent;
+  background-color: #081d38;
 }
 
 .ask-ta button:hover,
