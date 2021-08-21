@@ -72,15 +72,16 @@
     <!--! Hero section -->
     <!-- Hero section -->
     <section class="hero">
+    
       <div class="container">
         <h2 class="limit">LIMIT THE BORING</h2>
         <h2 class="stuff">STUFF.</h2>
         <h1 class="hero-say">
-          Learn the core concept behind one of then
+          Learn the core concept behind one of the
           <span>abstractive</span> electrical engineering course, the
           <span>circuit analysis</span> with.
         </h1>
-        <a href="" class="btn hero-btn">Just A Tap <span>&rarr;</span></a>
+        <a href="learnca.html" class="btn hero-btn">Just A Tap <span>&rarr;</span></a>
       </div>
       <div class="svg-reading-box">
         <svg
@@ -1542,8 +1543,7 @@
     <section class="learn-one-on-one">
       <div class="container">
         <div>
-          <h2 class="in-kano">Leaving in Kano,</h2>
-          <h2>Nigeria!</h2>
+          <h2 class="in-kano">Leaving in Kano, Nigeria!</h2>
         </div>
         <h3>It's great then, learn one-on-one at just a penny.</h3>
 
@@ -1577,6 +1577,36 @@
       </div>
     </section>
 
+    <div class="my-form-pop">
+      <form
+        action="https://formsubmit.co/10ae5eac92717d7297345978e4e3230b"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <input
+          type="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+        <textarea
+          name="message"
+          cols="20"
+          rows="10"
+          placeholder="Tell us something and we give you a quote."
+        ></textarea>
+
+        <input
+          type="hidden"
+          name="_next"
+          value="https://talaunch.netlify.com/thank-you.html"
+        />
+        <button class="btn" type="submit">Get A Quote</button>
+      </form>
+    </div>
+<div class="pop-up">
+
+</div>
     <!-- ! Footer section begins -->
 
     <footer>
@@ -1775,5 +1805,11 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script>const popUpBtn = document.querySelector(".pop-up");
+
+      const popUpForm = document.querySelector(".my-form-pop");
+      popUpBtn.addEventListener("click", () => {
+        popUpForm.classList.toggle("pop-up-active");
+      });</script>
   </body>
 </html>
