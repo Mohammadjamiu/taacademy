@@ -30,12 +30,13 @@
 html {
   font-size: 62.5%;
   font-family: "Muli", sans-serif;
-  color: var(--black-shade);
+  color: var(--slidebar-shade);
 }
 
 a {
   text-decoration: none;
   font-size: 1.6rem;
+  color: var(--slidebar-color);
 }
 
 li {
@@ -58,6 +59,16 @@ li {
 p {
   line-height: 1.6;
   margin: 1.5rem 0;
+  color: var(--slidebar-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--slidebar-color);
 }
 
 /* ! Header style */

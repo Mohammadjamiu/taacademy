@@ -131,7 +131,7 @@ section.ourpost-foreground h2 {
 
   /* ! get a quote form style */
 
-  
+  /* 
 
 .content-section .my-form {
     background-color: #fff;
@@ -192,4 +192,4 @@ section.ourpost-foreground h2 {
   .content-section button:hover,
   .content-section button:focus {
     background-color: var(--slidebar-color);
-  }
+  } */
