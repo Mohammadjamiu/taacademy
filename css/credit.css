@@ -1,0 +1,44 @@
+.credit-goes-one,
+.credit-goes-two,
+.credit-goes-three,
+.credit-goes-four {
+  position: relative;
+}
+
+.credit-goes-one::before,
+.credit-goes-two::before,
+.credit-goes-three::before,
+.credit-goes-four::before {
+  font-size: 1.3rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: var(--primary-color);
+  height: 2rem;
+  width: 2.5rem;
+
+  border-radius: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+.credit-goes-one::before {
+  content: "1";
+}
+.credit-goes-two::before {
+  content: "2";
+}
+.credit-goes-three::before {
+  content: "3";
+}
+.credit-goes-four::before {
+  content: "4";
+}
+
+div.credit-goes a {
+color: var(--primary-color);
+}
+
+section.pagebody{
+    padding: 3rem 0;
+}

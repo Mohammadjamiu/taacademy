@@ -1,8 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102">
-  <g id="Group_224" data-name="Group 224" transform="translate(-914 -5590)">
-    <circle id="Ellipse_11" data-name="Ellipse 11" cx="51" cy="51" r="51" transform="translate(914 5590)" fill="#2d79e4"/>
-    <g id="Group_223" data-name="Group 223" transform="translate(943.372 5616.627)">
-      <path id="Path_261" data-name="Path 261" d="M1606.825,63.82c17.736,35.605-39.866,1.237-39.866,1.237l13.031,48.584S1589.091,28.215,1606.825,63.82Z" transform="translate(-1566.959 -55.139)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="tafulllogo.svg"
+   id="svg23"
+   version="1.1"
+   viewBox="0 0 85.95031 85.95031"
+   height="85.95031"
+   width="85.95031">
+  <metadata
+     id="metadata29">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs27" />
+  <sodipodi:namedview
+     inkscape:current-layer="Group_224"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="76"
+     inkscape:cy="42.97511"
+     inkscape:cx="60.493754"
+     inkscape:zoom="4.7352941"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     id="namedview25"
+     inkscape:window-height="729"
+     inkscape:window-width="1274"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     transform="translate(-922.02485,-5598.0248)"
+     data-name="Group 224"
+     id="Group_224">
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
+       style="stroke-width:0.84265"
+       fill="#2d79e4"
+       r="42.975155"
+       cy="5641"
+       cx="965"
+       data-name="Ellipse 11"
+       id="Ellipse_11" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
+       transform="matrix(1.0367859,0,0,1.0367859,942.57641,5615.258)"
+       data-name="Group 223"
+       id="Group_223">
+      <path
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke="white"
+         fill="none"
+         transform="translate(-1566.959,-55.139)"
+         d="m 1606.825,63.82 c 17.736,35.605 -39.866,1.237 -39.866,1.237 l 13.031,48.584 c 0,0 9.101,-85.426 26.835,-49.821 z"
+         data-name="Path 261"
+         id="Path_261" />
     </g>
   </g>
 </svg>

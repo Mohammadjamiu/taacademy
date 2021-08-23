@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--! META TAGS -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tooabstractive.io - Limit the boring stuff.</title>
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/main-style.css" />
-    <link rel="stylesheet" href="css/ourpostpage-style.css" />
+    <meta
+      name="description"
+      content="In order to analyze any circuit, the understanding of what voltage, current and resistance is is crucial, so thats what we would be discussing"
+    />
+    <meta
+      name="keywords"
+      content="current, voltage, resistance, electricity, physics, ampere, battery, circuit, engineering, volts, amps, electrical engineering, electrons,circuit analysis "
+    />
+    <meta name="author" content="Mohammad Abdul" />
+    <!--! TITLE TAGS -->
+    <title>Learn circuit analysis in a simplified manner.</title>
+    <!--! LINKS TAGS -->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/main-style.css" />
+    <link rel="stylesheet" href="../css/aboutpage-style.css" />
+    <link rel="stylesheet" href="../css/learnca-style.css" />
   </head>
 
   <body>
@@ -70,16 +84,15 @@
     </header>
     <!--! End of Header section -->
 
-    <!-- ! Our post page foreground -->
-
+    <!--! Our post section -->
     <section class="ourpost-foreground">
       <div class="container">
-        <h2>Our Post</h2>
-        <h3>
-          Get the thoughts out post that can enhance and upskill knowledge.
-        </h3>
+        <h2>The fundamentals I</h2>
+        <h3>the concept of current, voltage and resistance</h3>
       </div>
     </section>
+
+    <div id="was-it-helpful"></div>
 
     <!-- ! Footer section begins -->
     <footer>
@@ -260,25 +273,71 @@
         <div class="logo-footer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="22"
-            height="32.111"
-            viewBox="0 0 24.244 32.111"
+            width="42"
+            height="42"
+            viewBox="0 0 115 115"
           >
-            <path
-              id="Path_261"
-              data-name="Path 261"
-              d="M1587.465,59.6c9.123,18.314-20.506.636-20.506.636l6.7,24.99S1578.343,41.29,1587.465,59.6Z"
-              transform="translate(-1565.959 -54.119)"
-              fill="none"
-              stroke="#2d79e4"
-              stroke-linejoin="round"
-              stroke-width="2"
-            />
+            <g
+              id="Group_224"
+              data-name="Group 224"
+              transform="translate(-914 -5590)"
+            >
+              <circle
+                id="Ellipse_11"
+                data-name="Ellipse 11"
+                cx="57.5"
+                cy="57.5"
+                r="57.5"
+                transform="translate(914 5590)"
+                fill="#2d79e4"
+              />
+              <g
+                id="Group_223"
+                data-name="Group 223"
+                transform="translate(931.748 5583.653)"
+              >
+                <path
+                  id="Path_261"
+                  data-name="Path 261"
+                  d="M1611.906,64.926c20,40.143-44.947,1.395-44.947,1.395l14.692,54.776S1591.912,24.783,1611.906,64.926Z"
+                  transform="translate(-1551.592 -18.771)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linejoin="round"
+                  stroke-width="3"
+                />
+              </g>
+            </g>
           </svg>
         </div>
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/was-it-helpful@latest/dist/build.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        if (document.querySelector("#was-it-helpful")) {
+          new WasItHelpful("#was-it-helpful", {
+            labels: {
+              question_text: "Was this article helpful?",
+              answer_yes: "Yes",
+              answer_no: "No",
+              sorry_text: "Sorry about that! How can we improve it?",
+              submit_btn: "Send feedback",
+              thank_you: "Thanks!",
+            },
+            onSubmit: function (data) {
+              $.post("https://gmail.com", {
+                subject: "Page title",
+                url: "http://page.url.com",
+                helpful: data.helpful ? "1" : "0",
+                message: data.message,
+              });
+            },
+          });
+        }
+      });
+    </script>
   </body>
 </html>
