@@ -1,7 +1,7 @@
 :root {
   --black-shade: #222325;
 
-  --footer-color: #fbfbfb;
+  --footer-color: #f5f5f5;
   --primary-color: #2d79e4;
   --complementary-color: #e4982d;
 
@@ -468,3 +468,4 @@ h2.still-pending::after {
 .my-form-pop button {
   background-color: var(--slidebar-color);
 } */
+

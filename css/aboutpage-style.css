@@ -25,6 +25,9 @@ section.ourpost-foreground h2 {
     color: #fff;
   }
 
+  section.content-section{
+    margin-bottom: 3rem;
+  }
 
   section.content-section
     h2.story-block {

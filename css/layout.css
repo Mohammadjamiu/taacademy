@@ -180,6 +180,7 @@ header nav a:focus {
 footer {
   background-color: var(--footer-color);
   padding: 4rem 0 2rem 0rem;
+  
 }
 
 .footer-content-block {
