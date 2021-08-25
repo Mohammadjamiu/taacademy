@@ -198,7 +198,7 @@ h2.problem-solved::after {
   background-color: #081d38;
   box-shadow: 2px -1px 12px rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
-  padding: 2.5rem;
+  padding: 2.2rem;
   height: 34rem;
   position: relative;
   z-index: 100;
@@ -234,7 +234,7 @@ textarea,
   margin-bottom: 1.5rem;
   padding: 1rem;
   font-family: "Muli", sans-serif;
-  background-color: #eeeeee;
+  background-color: #faf2f2;
   color: var(--slidebar-color);
 }
 
@@ -278,7 +278,8 @@ input[type="file"] {
   display: inline-block;
   border-radius: 0.4rem;
   border: 2px solid var(--primary-color);
-  color: #081d38;
+  /* color: #081d38; */
+  color: #fff;
 }
 
 .ask-ta button:hover,

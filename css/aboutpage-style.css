@@ -134,17 +134,10 @@ section.ourpost-foreground h2 {
 
   /* ! get a quote form style */
 
-  /* 
+ 
 
 .content-section .my-form {
-    background-color: #fff;
-    box-shadow: 2px 9px 14px rgba(0, 0, 0, 0.2);
-    border-radius: 0.35rem;
-    padding: 3rem;
-    height: 30rem;
-    position: relative;
-    z-index: 100;
-    margin-bottom: 3rem;
+height:30rem
   }
   
   .content-section  form {
