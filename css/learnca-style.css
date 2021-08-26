@@ -7,7 +7,7 @@ h2 {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   font-family: "Muli", sans-serif;
   color: var(--slidebar-color);
 }
@@ -50,10 +50,6 @@ p {
 
   border-radius: 0.2rem;
   font-family: "Muli", sans-serif;
-}
-
-.content-summary {
-  background-color: hsla(215, 77%, 54%, 0.08);
 }
 
 .little-nugget {
@@ -133,18 +129,20 @@ p {
 
 .content-summary {
   border-left: 0rem;
+  background-color: #091b3115;
 }
 
 .content-summary h3 {
   font-family: "MuliBold", sans-serif;
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 .content-summary li {
   list-style-type: disc;
-  color: var(--primary-color);
-  font-size: 1.5rem;
+  color: var(--slidebar-color);
+  font-size: 1.55rem;
   margin: 1.1rem 0 1.1rem 0.6rem;
   padding-left: 0.9rem;
+  line-height: 1.6;
 }
 
 img {

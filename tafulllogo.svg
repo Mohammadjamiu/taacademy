@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="tafulllogo.svg"
-   id="svg23"
-   version="1.1"
-   viewBox="0 0 85.95031 85.95031"
+   width="85.95031"
    height="85.95031"
-   width="85.95031">
+   viewBox="0 0 85.95031 85.95031"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="tafulllogo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <metadata
      id="metadata29">
     <rdf:RDF>
@@ -22,67 +22,149 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs27" />
   <sodipodi:namedview
-     inkscape:current-layer="Group_224"
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="76"
-     inkscape:cy="42.97511"
-     inkscape:cx="60.493754"
-     inkscape:zoom="4.7352941"
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     showgrid="false"
-     id="namedview25"
-     inkscape:window-height="729"
-     inkscape:window-width="1274"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     id="namedview25"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.59191176"
+     inkscape:cx="84.920657"
+     inkscape:cy="101.28751"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group_224" />
   <g
-     transform="translate(-922.02485,-5598.0248)"
+     id="Group_224"
      data-name="Group 224"
-     id="Group_224">
-    <circle
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
-       style="stroke-width:0.84265"
-       fill="#2d79e4"
-       r="42.975155"
-       cy="5641"
-       cx="965"
-       data-name="Ellipse 11"
-       id="Ellipse_11" />
+     transform="translate(-922.02485,-5598.0248)">
+    <rect
+       y="5445.9751"
+       x="680.43481"
+       height="518.65839"
+       width="660.57141"
+       id="rect904"
+       style="fill:white;fill-opacity:1;stroke:#091b31;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:black" />
     <g
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
-       transform="matrix(1.0367859,0,0,1.0367859,942.57641,5615.258)"
-       data-name="Group 223"
-       id="Group_223">
+       transform="translate(-15.204966,-19.639752)"
+       id="g26">
+      <circle
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
+         style="stroke-width:0.726708"
+         fill="#2d79e4"
+         r="37.062111"
+         cy="5641"
+         cx="965"
+         data-name="Ellipse 11"
+         id="Ellipse_11" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
+         transform="matrix(0.89413231,0,0,0.89413231,945.66184,5614.8445)"
+         data-name="Group 223"
+         id="Group_223">
+        <path
+           stroke-width="3"
+           stroke-linejoin="round"
+           stroke="white"
+           fill="none"
+           d="m 1606.825,63.82 c 17.736,35.605 -39.866,1.237 -39.866,1.237 l 13.031,48.584 c 0,0 9.101,-85.426 26.835,-49.821 z"
+           data-name="Path 261"
+           id="Path_261"
+           transform="translate(-1566.959,-55.139)" />
+      </g>
+    </g>
+    <g
+       id="g34"
+       transform="translate(123.32919,-26.397516)">
+      <circle
+         r="37.062111"
+         id="circle28"
+         data-name="Ellipse 11"
+         cx="965"
+         cy="5641"
+         fill="#2d79e4"
+         style="fill:#091b31;fill-opacity:1;stroke-width:0.726708"
+         inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         id="g32"
+         data-name="Group 223"
+         transform="matrix(0.89413231,0,0,0.89413231,945.66184,5614.8445)"
+         inkscape:export-filename="M:\OneDrive\talaunchV2.0\favicon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <path
+           transform="translate(-1566.959,-55.139)"
+           id="path30"
+           data-name="Path 261"
+           d="m 1606.825,63.82 c 17.736,35.605 -39.866,1.237 -39.866,1.237 l 13.031,48.584 c 0,0 9.101,-85.426 26.835,-49.821 z"
+           fill="none"
+           stroke="white"
+           stroke-linejoin="round"
+           stroke-width="3" />
+      </g>
+    </g>
+    <g
+       transform="translate(89.540373,-64.198758)"
+       id="g902">
+      <circle
+         style="fill:white;fill-opacity:1;stroke:#091b31;stroke-width:3.24054;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:black"
+         id="circle876"
+         cx="862.04968"
+         cy="5816.8076"
+         r="48.840702" />
       <path
+         style="stroke:#091b31;stroke-width:2.682;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          stroke-width="3"
          stroke-linejoin="round"
          stroke="white"
          fill="none"
-         transform="translate(-1566.959,-55.139)"
-         d="m 1606.825,63.82 c 17.736,35.605 -39.866,1.237 -39.866,1.237 l 13.031,48.584 c 0,0 9.101,-85.426 26.835,-49.821 z"
+         d="m 878.357,5798.4142 c 15.85833,31.8355 -35.64547,1.106 -35.64547,1.106 l 11.65143,43.4405 c 0,0 8.1375,-76.3821 23.99404,-44.5465 z"
          data-name="Path 261"
-         id="Path_261" />
+         id="path861" />
+    </g>
+    <g
+       transform="translate(-45.614907,-8.447205)"
+       id="g898">
+      <circle
+         r="48.840702"
+         cy="5760.2109"
+         cx="1144.1863"
+         id="path874"
+         style="fill:white;fill-opacity:1;stroke:#2d79e4;stroke-width:3.24054;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:black" />
+      <path
+         id="path870"
+         data-name="Path 261"
+         d="m 1160.4936,5741.8175 c 15.8583,31.8356 -35.6455,1.106 -35.6455,1.106 l 11.6514,43.4405 c 0,0 8.1375,-76.3821 23.9941,-44.5465 z"
+         fill="none"
+         stroke="white"
+         stroke-linejoin="round"
+         stroke-width="3"
+         style="fill:none;fill-opacity:1;stroke:#2d79e4;stroke-width:2.682;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>

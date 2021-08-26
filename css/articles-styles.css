@@ -7,8 +7,8 @@ section.pagebody   .container {
       flex-direction: column;
 }
 
-section.pagebody   h2 {
-    font-size: 2.2rem;
+section.pagebody   h1 {
+    font-size: 2.4rem;
     margin: 0.5rem 0 2rem 0;
     text-transform: capitalize;
     font-family: "MuliBold", sans-serif;
@@ -18,8 +18,8 @@ section.pagebody   h2 {
   .bar-style {
     height: 0.3rem;
     width: 8rem;
-    background-color: var(--black-shade);
-    margin: 2rem 0;
+    background-color: var(--slidebar-color);
+    margin: 1rem 0;
     display: inline-block;
     border-radius: 0.2rem;
     align-self: flex-start;
@@ -40,8 +40,9 @@ section.pagebody   h2 {
 
 
   p {
-    font-size: 1.6rem;
-    margin: 1.2rem 0;
+    font-size: 1.62rem;
+   
+    margin: 2rem 0;
     font-family: "Muli", sans-serif;
   }
 /*
