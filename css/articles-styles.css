@@ -1,50 +1,51 @@
-
 section.pagebody {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
-section.pagebody   .container {
-      display: flex;
-      flex-direction: column;
+section.pagebody .container {
+  display: flex;
+  flex-direction: column;
 }
 
-section.pagebody   h1 {
-    font-size: 2.4rem;
-    margin: 0.5rem 0 2rem 0;
-    text-transform: capitalize;
-    font-family: "MuliBold", sans-serif;
-  }
+section.pagebody h1 {
+  font-size: 2.4rem;
+  margin: 0.5rem 0 2rem 0;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+section.pagebody h1,
+section.pagebody h2 {
+  line-height: 1.35;
+}
 
-  
-  .bar-style {
-    height: 0.3rem;
-    width: 8rem;
-    background-color: var(--slidebar-color);
-    margin: 1rem 0;
-    display: inline-block;
-    border-radius: 0.2rem;
-    align-self: flex-start;
-  }
-  p.description {
-    font-size: 1.2rem;
-    font-family: "Muli", sans-serif;
-  }
-  span.on-what-topic {
-    text-transform: capitalize;
-    font-family: "Muli", sans-serif;
-    font-weight: 400;
-    color: var(--primary-color);
-    display: inline-block;
+.bar-style {
+  height: 0.3rem;
+  width: 8rem;
+  background-color: var(--slidebar-color);
+  margin: 1rem 0;
+  display: inline-block;
+  border-radius: 0.2rem;
+  align-self: flex-start;
+}
+p.description {
+  font-size: 1.2rem;
+  font-family: "Muli", sans-serif;
+}
+span.on-what-topic {
+  text-transform: capitalize;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  color: var(--primary-color);
+  display: inline-block;
 
-    border-radius: 0.3rem;
-  }
+  border-radius: 0.3rem;
+}
 
+p {
+  font-size: 1.62rem;
 
-  p {
-    font-size: 1.62rem;
-   
-    margin: 2rem 0;
-    font-family: "Muli", sans-serif;
-  }
+  margin: 2rem 0;
+  font-family: "Muli", sans-serif;
+}
 /*
 
     @include desktop {
