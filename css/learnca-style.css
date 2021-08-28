@@ -4,6 +4,7 @@ h2 {
   margin: 1rem 0;
   text-transform: capitalize;
   color: var(--slidebar-color);
+  line-height: 1.35;
 }
 
 p {
@@ -96,17 +97,18 @@ p {
 
 .lca-nav-next::before,
 .lca-nav-prev::before {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 
   display: inline-block;
 }
 
 .lca-nav-next::before {
-  content: "NEXT";
+  content: "NEXT "" \2192 ";
 }
 
 .lca-nav-prev::before {
-  content: "PREV";
+  content: "\2190  PREV";
+  
 }
 
 .lca-nav-next p,
@@ -146,8 +148,9 @@ p {
 }
 
 img {
-  margin: 3rem 0;
+  margin: 3rem auto;
   max-width: 100%;
+  max-height: 25rem;
   display: block;
   border: 0.1rem solid var(--slidebar-color);
   padding: 0.1rem;

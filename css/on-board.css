@@ -42,4 +42,7 @@
      text-decoration: underline;
     }
 
+    .we-get-back-body a::before{
+      content: '\2190';
+    }
 

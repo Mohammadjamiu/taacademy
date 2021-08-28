@@ -57,7 +57,7 @@ section.hero {
   margin: 2.5rem 0;
   max-width: 75%;
   font-family: "Muli", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   font-weight: 400;
   line-height: 1.6;
   color: #f1f1f1;
@@ -116,22 +116,26 @@ h2.curious::after {
   height: 32rem;
   max-width: 100%;
   box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 0.2rem;
+  
+  border-radius: 0.4rem;
   /* padding: 2rem 1.5rem; */
   line-height: 1.5;
   position: relative;
   text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
+
 }
 .post img {
   width: 100%;
   height: 14rem;
+  
   border-bottom: 0.1rem solid var(--primary-color);
+  
   border-radius: 0.2rem;
 }
 .post h3 {
   height: 18rem;
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   color: var(--slidebar-color);
   padding: 2rem 1.5rem;
 }
@@ -198,35 +202,44 @@ h2.problem-solved::after {
 .ask-ta p {
   margin: 5rem 0;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   line-height: 1.5;
 }
 
 
 
-.ask-ta .my-form::before{
-  content: url(/lightup.svg);
-/* background-color: #2d79e4; */
-width: 4rem;
-height: 4rem;
+/* .ask-ta .my-form::before{
+  content: url(/images/lightup.svg);
+
+width: 3.5rem;
+height: 3.5rem;
 display: block;
 position: absolute;
 top: -25px;
-margin: 0 auto;
+margin: .2rem auto 0;
 
-}
+} */
 
 .ask-ta .my-form,
 .learn-one-on-one .my-form,
 .content-section .my-form {
-  background-color: #081d38;
+  /* background-color: #081d38; */
+  background-color: #ececec;
   box-shadow: 0px -1px 12px rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   padding: 2.2rem;
-  height: 34rem;
+  height: 38rem;
   position: relative;
   z-index: 100;
 }
+
+.my-form h2{
+  color: var(--slidebar-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-family: "MuliBold", sans-serif;
+}
+
 
 .ask-ta form,
 .learn-one-on-one form,
@@ -253,13 +266,15 @@ textarea,
 .content-section input[type="email"],
 .content-section textarea {
   height: 4rem;
-  border-radius: 0.4rem;
-  border: 1px solid #091b31;
+  border-radius: 0.3rem;
+  border: 0px solid #091b31;
+ 
   margin-bottom: 1.5rem;
   padding: 1rem;
   font-family: "Muli", sans-serif;
-  background-color: #f1f1f1;
+  background-color: hsla(214, 75%, 13%, 0.103);
   color: var(--slidebar-color);
+ 
 }
 
 textarea,
@@ -271,22 +286,24 @@ textarea,
 
 input[type="email"]:focus,
 textarea:focus,
-.learn-one-on-one input[type="email"]:focus,
-.learn-one-on-one textarea:focus,
 .content-section input[type="email"]:focus,
 .content-section textarea:focus {
   outline-style: none;
   border: 1px solid var(--primary-color);
 }
 
+
+
 input[type="file"] {
-  padding: 1rem;
-  height: 4.2rem;
+  padding: .8rem;
+  /* height: 4.2rem; */
   display: flex;
   padding: auto;
-  background-color: #081d38;
+  /* background-color: #081d38;
+   */
+   background-color: hsla(213, 72%, 13%, 0.884);
   color: #f4f4f4;
-  width: 20rem;
+  width: 18rem;
   border-radius: 0.4rem;
 }
 
@@ -308,8 +325,9 @@ input[type="file"] {
 
 .ask-ta button:hover,
 .ask-ta button:focus {
-  background-color: var(--slidebar-color);
-  color: #fff;
+  color: var(--primary-color);
+
+  background-color: #ececec;
 }
 
 /* ! Wow electromag style */
@@ -351,7 +369,7 @@ h2.still-pending::after {
 }
 
 .wow-electromag p {
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   margin-top: 1rem;
   color: var(--slidebar-color);
 }
@@ -386,7 +404,7 @@ h2.still-pending::after {
 }
 
 .wpost h3 {
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   height: 18rem;
   padding: 2rem 1.5rem;
 }
@@ -442,7 +460,7 @@ h2.still-pending::after {
 }
 
 .learn-one-on-one h3 {
-  font-size: 1.6rem;
+  font-size: 1.62rem;
   font-family: "Muli", sans-serif;
   font-weight: normal;
   color: #fff;
@@ -450,9 +468,15 @@ h2.still-pending::after {
 }
 
 .learn-one-on-one .my-form {
-  height: 30rem;
+  height: 29rem;
   margin: 2rem 0;
-  /* padding: 2rem; */
+
+}
+
+.learn-one-on-one input[type="email"]:focus,
+.learn-one-on-one textarea:focus{
+  outline-style: none;
+  border: 1px solid var(--complementary-color);
 }
 
 .learn-one-on-one button,
@@ -467,7 +491,8 @@ h2.still-pending::after {
 .learn-one-on-one button:focus,
 .content-section button:hover,
 .content-section button:focus {
-  background-color: var(--slidebar-color);
+  background-color: #ececec;
+  color: var(--complementary-color);
 }
 
 .my-form-pop {
