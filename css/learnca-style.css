@@ -17,7 +17,7 @@ p {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  height: 22rem;
+  height: 24rem;
 }
 
 .box-index {
@@ -29,7 +29,7 @@ p {
   align-items: center;
   color: #fff;
   border-radius: 0.4rem;
-  margin-bottom: 1rem;
+  margin:3rem auto 1rem;
   align-self: center;
 }
 

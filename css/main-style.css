@@ -279,7 +279,7 @@ input[type="file"] {
   padding: 0.8rem;
   /* height: 4.2rem; */
   display: flex;
-  padding: auto;
+  /* padding: auto; */
   /* background-color: #081d38;
    */
   background-color: hsla(213, 72%, 13%, 0.884);
