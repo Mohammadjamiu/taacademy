@@ -93,13 +93,16 @@ p {
 .lca-nav-next,
 .lca-nav-prev {
   position: relative;
+
 }
 
 .lca-nav-next::before,
 .lca-nav-prev::before {
   font-size: 1.5rem;
 
-  display: inline-block;
+  display: block;
+  padding: 1rem 0;
+ 
 }
 
 .lca-nav-next::before {
@@ -111,19 +114,21 @@ p {
   
 }
 
-.lca-nav-next p,
-.lca-nav-prev p {
+.lca-nav-next ,
+.lca-nav-prev  {
   padding: 1rem 1.5rem 1rem 2rem;
 
   border: 0.1rem solid var(--slidebar-color);
   border-radius: 0.4rem;
   transition: all 100ms ease-in-out;
+  display: block;
+  text-transform: capitalize;
 }
 
-.lca-nav-next p:hover,
-.lca-nav-next p:focus,
-.lca-nav-prev p:hover,
-.lca-nav-prev p:focus {
+.lca-nav-next:hover,
+.lca-nav-next:focus,
+.lca-nav-prev:hover,
+.lca-nav-prev:focus {
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
@@ -165,4 +170,8 @@ span.text-italics {
 
 span.text-emphasis {
   font-family: "MuliBold", sans-serif;
+}
+
+.feedback-distinguish{
+  color: var(--primary-color);
 }
