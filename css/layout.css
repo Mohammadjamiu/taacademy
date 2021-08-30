@@ -31,6 +31,9 @@ html {
   font-size: 62.5%;
   font-family: "Muli", sans-serif;
   color: var(--slidebar-shade);
+
+  scroll-behavior: smooth;
+  
 }
 
 a {
@@ -180,7 +183,6 @@ header nav a:focus {
 footer {
   background-color: var(--footer-color);
   padding: 4rem 0 2rem 0rem;
-  
 }
 
 .footer-content-block {
