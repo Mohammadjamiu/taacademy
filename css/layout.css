@@ -222,6 +222,13 @@ footer a:focus {
   padding: 0.2rem;
 }
 
+
+img.footer-icon{
+  max-width: 2.3rem;
+  display: inline;
+  margin: 0;
+  border: 0;
+}
 .trademark p {
   font-size: 1.3rem;
   font-family: "Muli", sans-serif;
