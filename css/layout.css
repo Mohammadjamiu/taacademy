@@ -228,6 +228,7 @@ img.footer-icon{
   display: inline;
   margin: 0;
   border: 0;
+  background-color: transparent;
 }
 .trademark p {
   font-size: 1.3rem;
