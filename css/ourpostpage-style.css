@@ -29,6 +29,7 @@ section.our-post {
 
 section.content-section .our-post h2 {
   margin-top: 4rem;
+  font-size: 4rem;
 }
 
 h2.curious::after {
