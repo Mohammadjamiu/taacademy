@@ -33,7 +33,6 @@ html {
   color: var(--slidebar-shade);
 
   scroll-behavior: smooth;
-  
 }
 
 a {
@@ -222,8 +221,7 @@ footer a:focus {
   padding: 0.2rem;
 }
 
-
-img.footer-icon{
+img.footer-icon {
   max-width: 2.3rem;
   display: inline;
   margin: 0;
