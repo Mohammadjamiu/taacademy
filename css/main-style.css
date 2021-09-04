@@ -6,8 +6,9 @@
   --complementary-color: #e4982d;
 
   --slidebarb-color: #061830;
- 
+
   --slidebar-color: #091b31;
+  --whatsapp-color: #25d366;
 }
 
 /* ! Hero section style */
@@ -290,7 +291,8 @@ input[type="file"] {
 }
 
 .ask-ta button,
-.learn-one-on-one button, .content-section button {
+.learn-one-on-one button,
+.content-section button {
   border: 0;
   margin-top: 1.8rem;
   background-color: var(--primary-color);
@@ -461,9 +463,8 @@ h2.still-pending::after {
 }
 
 .learn-one-on-one button,
-.content-section button ,
-.quote-us-whatsapp
-{
+.content-section button,
+.quote-us-whatsapp {
   font-family: "Muli", sans-serif;
   background-color: var(--complementary-color);
   border: 2px solid var(--complementary-color);
@@ -473,29 +474,27 @@ h2.still-pending::after {
 .learn-one-on-one button:hover,
 .learn-one-on-one button:focus,
 .content-section button:hover,
-.content-section button:focus{
+.content-section button:focus {
   background-color: #ececec;
   color: var(--complementary-color);
   border: 2px solid var(--complementary-color);
 }
 
-.quote-us-whatsapp{
-  margin: .4rem 0;
+.quote-us-whatsapp {
+  margin: 0.4rem 0;
   display: block;
-  background-color: var(--primary-color);
+  background-color: var(--whatsapp-color);
   border: 0;
-  padding: .8rem 0;
-  border-radius: .4rem;
-  border: 2px solid var(--primary-color);
+  padding: 0.8rem 0;
+  border-radius: 0.4rem;
+  border: 2px solid var(--whatsapp-color);
   transition: all 150ms ease-in-out;
 }
 
 .quote-us-whatsapp:hover,
-
 .quote-us-whatsapp:focus {
   background-color: #ececec;
-  color: var(--primary-color);
-
+  color: var(--whatsapp-color);
 }
 
 /* !Media queries */
