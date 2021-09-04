@@ -172,6 +172,6 @@ span.text-emphasis {
   font-family: "MuliBold", sans-serif;
 }
 
-.feedback-distinguish{
+.feedback-distinguish,.links-to-article{
   color: var(--primary-color);
 }
