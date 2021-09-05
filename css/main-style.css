@@ -9,6 +9,7 @@
 
   --slidebar-color: #091b31;
   --whatsapp-color: #20bb59;
+  --telecoms-color: #061830;
 }
 
 /* ! Hero section style */
@@ -90,7 +91,7 @@ section.hero {
 h2.curious {
   font-size: 2.2rem;
   margin: 3rem 0 1rem;
-
+text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
   color: var(--slidebar-color);
 }
@@ -173,6 +174,7 @@ h2.do-you-want {
   font-size: 2.2rem;
   margin-bottom: 0.4rem;
   font-family: "MuliBold", sans-serif;
+  text-transform: capitalize;
 }
 
 h2.do-you-want::after {
@@ -185,6 +187,7 @@ h2.do-you-want::after {
 }
 
 h2.problem-solved {
+  text-transform: capitalize;
   color: #fff;
   font-size: 2.2rem;
   margin-bottom: 0.6rem;
@@ -323,6 +326,7 @@ h2.still-pending {
   margin-bottom: 0.6rem;
   font-family: "MuliBold", sans-serif;
   color: var(--slidebar-color);
+  text-transform: capitalize;
 }
 
 h2.the-next::after {
@@ -498,6 +502,102 @@ h2.still-pending::after {
   color: var(--whatsapp-color);
 }
 
+
+
+
+/* ! Our post style  */
+
+h2.one-fold {
+  font-size: 2.2rem;
+  margin: 3rem 0 1rem;
+text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+  color: var(--slidebar-color);
+}
+
+h2.one-fold::after {
+  content: "";
+  background-color: var(--telecoms-color);
+  height: 0.2rem;
+  width: 16rem;
+  display: block;
+  border-radius: 0.1rem;
+  color: var(--telecoms-color);
+}
+
+.one-fold-posts {
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.one-fold-post {
+  display: block;
+  height: 32rem;
+  max-width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0.4rem;
+  /* padding: 2rem 1.5rem; */
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+.one-fold-post img {
+  width: 100%;
+  height: 14rem;
+
+  border-bottom: 0.1rem solid var(--telecoms-color);
+
+  border-radius: 0.2rem;
+}
+.one-fold-post h3 {
+  height: 18rem;
+  font-size: 1.62rem;
+  color: var(--slidebar-color);
+  padding: 2rem 1.5rem;
+}
+
+.one-fold-post-1-more {
+  /* padding: 2rem 1.5rem; */
+  position: absolute;
+  bottom: 2.2rem;
+  right: 2.8rem;
+}
+
+.explore-more {
+  display: inline-block;
+}
+
+.explore-more h2 {
+  color: var(--telecoms-color);
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* !Media queries */
 
 @media (min-width: 770px) {
@@ -528,11 +628,12 @@ h2.still-pending::after {
   }
 
   /* ! For Post */
-  h2.curious {
+  h2.curious, h2.one-fold {
     font-size: 2.8rem;
+    text-transform: capitalize;
   }
   .posts,
-  .wposts {
+  .wposts,.one-fold-posts {
     margin: 3rem 0 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
