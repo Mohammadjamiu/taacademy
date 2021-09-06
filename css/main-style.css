@@ -91,7 +91,7 @@ section.hero {
 h2.curious {
   font-size: 2.2rem;
   margin: 3rem 0 1rem;
-text-transform: capitalize;
+  text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
   color: var(--slidebar-color);
 }
@@ -502,15 +502,12 @@ h2.still-pending::after {
   color: var(--whatsapp-color);
 }
 
-
-
-
 /* ! Our post style  */
 
 h2.one-fold {
   font-size: 2.2rem;
   margin: 3rem 0 1rem;
-text-transform: capitalize;
+  text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
   color: var(--slidebar-color);
 }
@@ -568,35 +565,16 @@ h2.one-fold::after {
   right: 2.8rem;
 }
 
-.explore-more {
+.one-fold-explore-more {
   display: inline-block;
 }
 
-.explore-more h2 {
+.one-fold-explore-more h2 {
   color: var(--telecoms-color);
   text-decoration: underline;
   font-size: 1.7rem;
   font-family: "MuliBold", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* !Media queries */
 
@@ -628,12 +606,14 @@ h2.one-fold::after {
   }
 
   /* ! For Post */
-  h2.curious, h2.one-fold {
+  h2.curious,
+  h2.one-fold {
     font-size: 2.8rem;
     text-transform: capitalize;
   }
   .posts,
-  .wposts,.one-fold-posts {
+  .wposts,
+  .one-fold-posts {
     margin: 3rem 0 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
