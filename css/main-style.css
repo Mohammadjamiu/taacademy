@@ -523,7 +523,7 @@ h2.one-fold::after {
 }
 
 .one-fold-posts {
-  margin: 3rem 0 1rem;
+  margin: 3.5rem 0 1.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
   gap: 2rem;
@@ -614,7 +614,7 @@ h2.one-fold::after {
   .posts,
   .wposts,
   .one-fold-posts {
-    margin: 3rem 0 1rem;
+    margin: 3.5rem 0 1.5rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
     gap: 3rem;

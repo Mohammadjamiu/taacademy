@@ -21,7 +21,7 @@ section.pagebody h2 {
   height: 0.3rem;
   width: 8rem;
   background-color: var(--slidebar-color);
-  margin: .4rem 0;
+  margin: 0.4rem 0;
   display: inline-block;
   border-radius: 0.2rem;
   align-self: flex-start;
@@ -30,7 +30,11 @@ p.description {
   font-size: 1.2rem;
   font-family: "Muli", sans-serif;
 }
-span.on-what-topic {
+
+/* ! holding the style for tags - on-what is general and others is specific */
+span.on-what-topic,
+span.one-fold-on-what-topic,
+span.wow-electromag-on-what-topic {
   text-transform: capitalize;
   font-family: "Muli", sans-serif;
   font-weight: 400;
@@ -38,6 +42,13 @@ span.on-what-topic {
   display: inline-block;
 
   border-radius: 0.3rem;
+}
+
+span.one-fold-on-what-topic {
+  color: var(--telecoms-color);
+}
+span.wow-electromag-on-what-topic {
+  color: var(--complementary-color);
 }
 
 p {
