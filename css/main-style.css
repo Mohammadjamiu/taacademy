@@ -583,7 +583,7 @@ h2.one-fold::after {
     font-size: 2.8rem;
   }
 
-  .hero .limit::after {
+  .hero .limit::after {  
     width: 17rem;
   }
 
