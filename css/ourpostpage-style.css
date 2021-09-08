@@ -23,6 +23,21 @@ section.ourpost-foreground h3 {
   color: #fff;
 }
 
+div.tag-to-others{
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.tag-to-others a {
+padding-right: 2rem;
+color: #fff;
+
+
+}
+
 section.our-post {
   margin: 1rem 0 4.5rem 0;
 }

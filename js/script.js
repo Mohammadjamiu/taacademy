@@ -14,12 +14,3 @@ harmburger.addEventListener("click", () => {
   lineTwo.classList.toggle("line-two");
   nav.classList.toggle("nav-active");
 });
-
-// const tocIcon = document.querySelector(".toc-icon");
-// const lcaToc = document.querySelector(".lca-toc");
-// tocIcon.addEventListener("click", () => {
-//   console.log("yes");
-//   lcaToc.classList.toggle('toc-nav-active');
-// });
-
-
