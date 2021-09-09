@@ -1,0 +1,3 @@
+Sitemap: http://www.tooabstractive.com/index_sitemap.xml
+User-agent: *
+Disallow:
