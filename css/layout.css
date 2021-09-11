@@ -11,6 +11,12 @@
   font-style: italic;
   font-weight: normal;
 }
+@font-face {
+  font-family: "MuliSemiBold";
+  src: url(/font/Muli-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
 
 @font-face {
   font-family: "MuliBold";
