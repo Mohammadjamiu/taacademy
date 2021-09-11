@@ -52,6 +52,23 @@ li {
   list-style-type: none;
 }
 
+.still-on-development{
+  background-color: var(--complementary-color);
+  margin: 0 auto;
+  padding: 0;
+  padding: 0 3rem;
+}
+.still-on-development p{
+  font-size: 1.5rem;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+text-transform: capitalize;
+}
+
 .container {
   /* max-width: 1100px; */
   /* margin: 0 auto; */
