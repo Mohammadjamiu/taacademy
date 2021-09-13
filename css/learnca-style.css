@@ -163,6 +163,15 @@ img {
   border-radius: 0.4rem;
 }
 
+
+.hide-show-image{
+  display: none;
+}
+
+.hide-show-image-active{
+  display: block;
+}
+
 span.text-italics {
   font-family: "MuliItalic", sans-serif;
   font-style: italic;
