@@ -27,27 +27,27 @@ section.pagebody h2 {
   align-self: flex-start;
 }
 p.description {
-  font-size: 1.2rem;
+  font-size: 1.24rem;
   font-family: "Muli", sans-serif;
 }
 
 /* ! holding the style for tags - on-what is general and others is specific */
-span.on-what-topic,
-span.one-fold-on-what-topic,
-span.wow-electromag-on-what-topic {
+a.on-what-topic,
+a.one-fold-on-what-topic,
+a.wow-electromag-on-what-topic {
   text-transform: capitalize;
   font-family: "Muli", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   color: var(--primary-color);
   display: inline-block;
-
+font-size: 1.24rem;
   border-radius: 0.3rem;
 }
 
-span.one-fold-on-what-topic {
+a.one-fold-on-what-topic {
   color: var(--telecoms-color);
 }
-span.wow-electromag-on-what-topic {
+a.wow-electromag-on-what-topic {
   color: var(--complementary-color);
 }
 

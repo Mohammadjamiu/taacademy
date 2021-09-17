@@ -13,12 +13,12 @@ p {
   color: var(--slidebar-color);
 }
 
-.post {
+/* .post {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+
   height: 24rem;
-}
+} */
 
 .box-index {
   background-color: var(--primary-color);
@@ -28,15 +28,18 @@ p {
   justify-content: center;
   align-items: center;
   color: #fff;
-  border-radius: 0.4rem;
+  border-radius: 0.3rem;
   margin: 3rem auto 1rem;
   align-self: center;
+  position: absolute;
+  top: 9.4rem;
+  left: 45%;
 }
 
-.post h3 {
+/* .post h3 {
   text-align: center;
   padding-top: 1rem;
-}
+} */
 
 .pagebody {
   margin: 4rem auto;
@@ -149,6 +152,37 @@ p {
   line-height: 1.6;
 }
 
+p.description-lca {
+  text-align: center;
+  font-size: 1.24rem;
+  font-family: "Muli", sans-serif;
+  color: var(--footer-color);
+}
+
+/* ! holding the style for tags - on-what is general and others is specific */
+a.on-what-topic-lca {
+  text-transform: capitalize;
+  font-family: "Muli", sans-serif;
+  font-weight: 400 !important;
+  color: var(--primary-color);
+  display: inline-block;
+  font-size: 1.24rem;
+  border-radius: 0.3rem;
+}
+
+ol li {
+  list-style-type: decimal;
+  color: var(--slidebar-color);
+  font-size: 1.55rem;
+  margin: 1.1rem 2rem;
+  padding-left: 0.9rem;
+  line-height: 1.6;
+}
+
+li br {
+  margin: 0 0 1rem 0;
+}
+
 img {
   margin: 3rem auto;
   max-width: 100%;
@@ -185,12 +219,63 @@ button.see-answer {
   cursor: pointer;
   border-radius: 0.2rem;
   font-family: "Muli", sans-serif;
-  margin: .8rem 0 1rem;
+  margin: 0.8rem 0 1rem;
 }
 
-
-
 .feedback-distinguish,
-.links-to-article {
+.links-to-article,
+.links-to-others {
   color: var(--primary-color);
+}
+
+.posts {
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.post {
+  display: block;
+  height: 32rem;
+  max-width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0.4rem;
+  /* padding: 2rem 1.5rem; */
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+
+img.lca-image {
+  width: 100%;
+  height: 14rem;
+  border: 0;
+  border-bottom: 0.1rem solid var(--primary-color);
+
+  border-radius: 0.2rem;
+
+  box-shadow: none;
+  margin: 0;
+}
+
+.post h3 {
+  margin-top: 1rem;
+}
+
+/* !Media queries */
+
+@media (min-width: 770px) {
+  /* ! For Post */
+
+  .posts {
+    margin: 3.5rem 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    gap: 3rem;
+    padding-bottom: 1.5rem;
+  }
 }

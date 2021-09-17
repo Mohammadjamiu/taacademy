@@ -1,483 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-        <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NWS8Z2G');</script>
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NWS8Z2G');</script>
   <!-- End Google Tag Manager -->
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="follow, index">
-    <meta name="description" content="over the years of been an engineering student, we've discover the best way to learn circuit analysis... For example, a short circuit is said to be by definition that
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="follow, index">
+  <meta name="description" content="over the years of been an engineering student, we've discover the best way to learn circuit analysis... For example, a short circuit is said to be by definition that
     voltage across is zero while the resistance is also zero but in
     reality how does this help.">
-    <link rel="canonical" href="https://www.tooabstractive.com/post/lca-post/how-to-learn-circuit-analysis-basic.html">
-    <title> The only way to learn and understand the basics of circuit analysis
-      - A practical tip.</title>
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="../../css/layout.css" />
-    <link rel="stylesheet" href="../../css/main-style.css" />
-    <link rel="stylesheet" href="../../css/learnca-style.css" />
-    <link rel="stylesheet" href="../../css/articles-styles.css" />
+  <link rel="canonical" href="https://www.tooabstractive.com/post/lca-post/how-to-learn-circuit-analysis-basic.html">
+  <title> The only way to learn and understand the basics of circuit analysis
+    - A practical tip.</title>
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../../css/layout.css" />
+  <link rel="stylesheet" href="../../css/main-style.css" />
+  <link rel="stylesheet" href="../../css/learnca-style.css" />
+  <link rel="stylesheet" href="../../css/articles-styles.css" />
 
 
 
-    <!-- ? open graph -->
-    <meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="The only way to learn and understand the basics of circuit analysis
+  <!-- ? open graph -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The only way to learn and understand the basics of circuit analysis
 - A practical tip.">
-<meta property="og:description" content="over the years of been an engineering student, we've discover the best way to learn circuit analysis... For example, a short circuit is said to be by definition that
+  <meta property="og:description" content="over the years of been an engineering student, we've discover the best way to learn circuit analysis... For example, a short circuit is said to be by definition that
 voltage across is zero while the resistance is also zero but in
 reality how does this help.">
-<meta property="og:url" content="https://www.tooabstractive.com/post/lca-post/how-to-learn-circuit-analysis-basic.html">
-<meta property="og:site_name" content="Tooabstractive">
+  <meta property="og:url"
+    content="https://www.tooabstractive.com/post/lca-post/how-to-learn-circuit-analysis-basic.html">
+  <meta property="og:site_name" content="Tooabstractive">
 
 
-<meta property="og:image" content="https://www.entlifeonline.com/wp-content/uploads/2018/09/how-to-start-a-internet-cafe.jpg">
-<meta property="og:image:secure_url" content="https://www.tooabstractive.com/images/jolt_1%20(1).jpg">
-<meta property="og:image:width" content="330">
-<meta property="og:image:height" content="330">
-<meta property="og:image:alt" content="how to learn the basics of circuit analysis">
-<meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image"
+    content="https://www.entlifeonline.com/wp-content/uploads/2018/09/how-to-start-a-internet-cafe.jpg">
+  <meta property="og:image:secure_url" content="https://www.tooabstractive.com/images/jolt_1%20(1).jpg">
+  <meta property="og:image:width" content="330">
+  <meta property="og:image:height" content="330">
+  <meta property="og:image:alt" content="how to learn the basics of circuit analysis">
+  <meta property="og:image:type" content="image/jpeg">
 </head>
 
-  <body>
- 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWS8Z2G"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWS8Z2G" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-    <!-- !Header Section -->
-    <header>
-      <div class="container">
-        <!--! logo -->
-        <a href="../../" class="logo">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="145"
-            height="32"
-            viewBox="0 0 155.482 32.111"
-          >
-            <g
-              id="Group_171"
-              data-name="Group 171"
-              transform="translate(-21.367 -22.349)"
-            >
-              <text
-                id="Tooabstractive"
-                transform="translate(54.849 45.868)"
-                fill="#2d79e4"
-                font-size="16"
-                font-family="MuliSemiBold"
-              >
-                <tspan x="0" y="0">Tooabstractive</tspan>
-              </text>
-              <path
-                id="Path_261"
-                data-name="Path 261"
-                d="M1587.465,59.6c9.123,18.314-20.506.636-20.506.636l6.7,24.99S1578.343,41.29,1587.465,59.6Z"
-                transform="translate(-1544.592 -31.771)"
-                fill="none"
-                stroke="#2d79e4"
-                stroke-linejoin="round"
-                stroke-width="2"
-              />
-            </g>
-          </svg>
-        </a>
+  <!-- !Header Section -->
+  <header>
+    <div class="container">
+      <!--! logo -->
+      <a href="../../" class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="145" height="32" viewBox="0 0 155.482 32.111">
+          <g id="Group_171" data-name="Group 171" transform="translate(-21.367 -22.349)">
+            <text id="Tooabstractive" transform="translate(54.849 45.868)" fill="#2d79e4" font-size="16"
+              font-family="MuliSemiBold">
+              <tspan x="0" y="0">Tooabstractive</tspan>
+            </text>
+            <path id="Path_261" data-name="Path 261"
+              d="M1587.465,59.6c9.123,18.314-20.506.636-20.506.636l6.7,24.99S1578.343,41.29,1587.465,59.6Z"
+              transform="translate(-1544.592 -31.771)" fill="none" stroke="#2d79e4" stroke-linejoin="round"
+              stroke-width="2" />
+          </g>
+        </svg>
+      </a>
 
-        <!-- ! Menu icon -->
-        <div class="menu-icon">
-          <div class="menu-line-one"></div>
-          <div class="menu-line-two"></div>
-          <div class="menu-line-three"></div>
-        </div>
+      <!-- ! Menu icon -->
+      <div class="menu-icon">
+        <div class="menu-line-one"></div>
+        <div class="menu-line-two"></div>
+        <div class="menu-line-three"></div>
       </div>
-      <nav>
-        <ul>
-          <li><a href="../../">Home</a></li>
-          <li><a href="../../ourpost.html">Our Posts</a></li>
-          <li>
-            <a class="lca-link" href="../../learnca.html"
-              >Learn Circuit Analysis</a
-            >
-          </li>
-          <li><a href="../../more-resources.html">More resources</a></li>
-          <li><a href="../../about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!--! End of Header section -->
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../../">Home</a></li>
+        <li><a href="../../ourpost.html">Our Posts</a></li>
+        <li>
+          <a class="lca-link" href="../../learnca.html">Learn Circuit Analysis</a>
+        </li>
+        <li><a href="../../more-resources.html">More resources</a></li>
+        <li><a href="../../about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--! End of Header section -->
 
-    <!-- ! Page body begins -->
+  <!-- ! Page body begins -->
 
-    <section class="pagebody">
-      <div class="container">
-        <div class="frontline">
-          <h1>
-            The only way to learn and understand the basics of circuit analysis
-            - A practical tip.
-          </h1>
-          <!-- <h3 class="on-what-topic">Telecoms / Networking</h3> -->
-          <p class="description">
-            By Mohammad | August 01 |
-            <span class="on-what-topic">circuit analysis</span>
-          </p>
-        </div>
-
-        <div class="bar-style"></div>
-        <div class="content">
-          <p>
-            When you ask someone how can I learn the basics of circuit analysis?
-            Most times the answer is practice-practice-practice. Though that’s
-            right but you can only practice stuff you find easier to understand
-            and the necessary fundamentals to have are also right because, how
-            can you even analyze or design a circuit if you don’t know how
-            resistor works or you don’t love dealing with calculations.
-          </p>
-
-          <p>
-            The case here is that don’t just learn circuit analysis techniques
-            or concepts from textbooks as if they are somewhat abstract or
-            different, try to learn how they link with each other or what can
-            they be used for.
-          </p>
-          <h2>The short circuit scenario</h2>
-          <p>
-            For example, a short circuit is said to be by definition; that
-            voltage across is zero while the resistance is also zero but in
-            reality how does this help; first let sketch out a simple diagram
-            for short circuit.
-          </p>
-          <img src="../../images/sc_2.jpg" alt="short circuit" />
-          <p>
-            This wire with zero resistance is the cause of short circuit right,
-            likewise in real life once you have a socket with 220v and you just
-            plug in a piece of wire (while the two ends are stripped off) into
-            the sockets input port then you just caused a short circuit and
-            might burn stuff or explode.
-          </p>
-          <p>
-            Though if you are lucky and there is a fuse installed in your home,
-            it’s just going to disconnect the fuse instead of damaging your
-            devices.
-          </p>
-          <h2>But where is short circuit of benefit?</h2>
-
-          <p>
-            If you charge an electrolytic capacitor, it charges mostly to its
-            maximum at an instantaneous rate and if left without been discharged
-            can hold the charge for a very long time and can cause
-            harm when you come in contact with it (mostly causes jolting of the
-            hand and vibration.
-          </p>
-          <img src="../../images/jolt_1 (1).jpg" alt="discharge a capacitor with a piece of wire" />
-          <p>
-            So therefore you are advised to discharge all capacitors before
-            dumping them in your box i.e. by short circuiting them. You can use
-            a piece of wire stripped at both ends just as it is been discussed
-            lately or use a screw driver.
-          </p>
-          <h2>How will short circuit concept help us in circuit analysis?</h2>
-          <p>
-            Firstly, if you have a circuit (I mean be it a small or huge
-            circuit), let’s say this circuit shown below and the professor or the
-            textbook you are reading from draws a wire across the battery
-            terminal, as shown below.
-          </p>
-          <img src="../../images/prof_2.jpg" alt="example of short circuit" />
-
-          <p>
-            Just know that those resistors are of no use because all the current
-            will flow or follow the path with least resistance i.e. zero
-            resistance, rather than flowing through the 220ohms and 330ohms
-            resistors.
-          </p>
-          <p>
-            And this is one intuition of understanding how electricity works and
-            that’s why mostly people got shocked if their body possess little or no
-            resistance (i.e. if is sweat on the body
-            or hands, or foot are placed on the ground with no insulator in
-            between). But if we are to wear insulators like gloves, shoe etc.,
-            we would be saving ourself big time.
-          </p>
-
-          <blockquote class="blockquote">
-            <p class="little-nugget">A little tip</p>
-            <p class="quote-text">
-              while working with high voltage make sure to put one hand in your
-              pocket or at the back and use the other hand to do stuff.
-            </p>
-          </blockquote>
-          <p>
-            Again let us look at another scenario which is based on open circuit
-            (I love this concept so much).
-          </p>
-          <h2>The open circuit scenario</h2>
-          <p>
-            Firstly, here are the concepts that I want you to put at the back of
-            your mind.
-          </p>
-          <blockquote class="blockquote">
-            <p class="little-nugget">Always recall</p>
-            <p class="quote-text">
-              We have an open circuit only if a connecting point is broken at
-              any point or along the wire i.e. no current flowing since if you
-              could recall or have once hear this that current will only flow if
-              there is a closed path, and since the path is broken – no current
-              flow.
-            </p>
-          </blockquote>
-          <p>
-            Now here is something fascinating, what will be the voltage across
-            the terminal point a and b?
-          </p>
-          <img src="../../images/ocscenario_2.jpg" alt="example of open circuit" />
-          <p>
-            You might be tempted to start using ohms’ law right, c’mon. since no
-            current is flowing, no voltage-drop across the resistance therefore
-            the voltage at across point a and b equal the source voltage (or
-            voltage of the battery). also since the resistor doesn’t consume any
-            energy then it has no use there.
-          </p>
-
-      
-
-          <p>
-            So in summary if you see any open circuit like that just consider
-            that the resistor is not there and just by looking at the circuit
-            you know what is what without even doing calculation.
-          </p>
-          <h2>The open circuit in real life</h2>
-          <p>
-            In real life, using same socket (220v) analogy, since you didn’t
-            connect anything to it, it is in an open circuited state and until
-            you connect something to both terminals before it is no longer an
-            open circuit.
-          </p>
-
-          <p>
-            You might also be curious enough and ask but no resistor there? Okay
-            now go ahead and I’m serious just take any resistor (make sure you
-            were glove or use a safety measure) and put the resistor in only on
-            one terminal as shown below and measure the voltage across the
-            terminals by using a voltmeter or a multi-meter and you will find
-            out that the resistor has no effect since no current is flowing
-            through it.
-          </p>
-          <img src="../../images/sockettest_3.jpg" alt="open circuit in real life using 220v socket" />
-
-          <blockquote class="blockquote">
-            <p class="little-nugget">PS.</p>
-            <p class="quote-text">
-              Always remember some of this cool stuff because that’s what makes
-              you confident as an engineer or engineering student.
-            </p>
-          </blockquote>
-
-          <p>
-            Lastly as we’ve discussed before, not only understanding how things
-            links with each other in circuit analysis but also having a good
-            background in mathematics and topics like algebra and the likes.
-          </p>
-          <p>
-            But if there is the case that you are having difficulty with
-            mathematics then I would suggest you taking free courses on
-            mathematics by Jason (math and science) or get the full course pack
-            on his site if you would love to learn more stuff on engineering
-            throughout your days in college or university as an engineering
-            student or even just a curious electronics hobbyist.
-          </p>
-        </div>
-        <p>love to ease the journey of learning circuit analysis here are comprehensive list of resourses you can bookmark to help you learn circuit analysis</p>
+  <section class="pagebody">
+    <div class="container">
+      <div class="frontline">
+        <h1>
+          The only way to learn and understand the basics of circuit analysis
+          - A practical tip.
+        </h1>
+        <!-- <h3 class="on-what-topic">Telecoms / Networking</h3> -->
+        <p class="description">
+          By Mohammad | August 01 |
+          <a class="on-what-topic" href="../../ourpost.html">circuit analysis</a>
+        </p>
       </div>
-    </section>
 
-    <!-- ! Footer section begins -->
-    <footer>
-      <div class="container">
-        <div class="footer-content-block">
-          <div class="footer-resource">
-            <h2>Resource</h2>
-            <ul>
-              <li>
-                <a href="../../more-resource/cramers-rule.html"
-                  >Crammers rule</a
-                >
-              </li>
-              <li><a href="../../learnca.html">Learn Circuit analysis</a></li>
+      <div class="bar-style"></div>
+      <div class="content">
+        <p>
+          When you ask someone how can I learn the basics of circuit analysis?
+          Most times the answer is practice-practice-practice. Though that’s
+          right but you can only practice stuff you find easier to understand
+          and the necessary fundamentals to have are also right because, how
+          can you even analyze or design a circuit if you don’t know how
+          resistor works or you don’t love dealing with calculations.
+        </p>
 
-              <li><a href="">Electromagnetic Theory</a></li>
-              <li><a href="../../more-resources.html">More resource</a></li>
-            </ul>
-          </div>
-          <div class="footer-community">
-            <h2>Community</h2>
-            <ul>
-              <li><a href="../../about.html">About us</a></li>
-              <li><a href="../../credits.html">Credits</a></li>
-              <li><a href="">Privacy policy</a></li>
-              <li><a href="">Sitemap</a></li>
-            </ul>
-          </div>
-          <div class="footer-contribution">
-            <h2>Contribution</h2>
-            <ul>
-              <li>
-                <a href="../../donate.html">Donate + Help others learn</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-connect">
-            <h2>Connect</h2>
+        <p>
+          The case here is that don’t just learn circuit analysis techniques
+          or concepts from textbooks as if they are somewhat abstract or
+          different, try to learn how they link with each other or what can
+          they be used for.
+        </p>
+        <h2>The short circuit scenario</h2>
+        <p>
+          For example, a short circuit is said to be by definition; that
+          voltage across is zero while the resistance is also zero but in
+          reality how does this help; first let sketch out a simple diagram
+          for short circuit.
+        </p>
+        <img src="../../images/sc_2.jpg" alt="short circuit" />
+        <p>
+          This wire with zero resistance is the cause of short circuit right,
+          likewise in real life once you have a socket with 220v and you just
+          plug in a piece of wire (while the two ends are stripped off) into
+          the sockets input port then you just caused a short circuit and
+          might burn stuff or explode.
+        </p>
+        <p>
+          Though if you are lucky and there is a fuse installed in your home,
+          it’s just going to disconnect the fuse instead of damaging your
+          devices.
+        </p>
+        <h2>But where is short circuit of benefit?</h2>
+
+        <p>
+          If you charge an electrolytic capacitor, it charges mostly to its
+          maximum at an instantaneous rate and if left without been discharged
+          can hold the charge for a very long time and can cause
+          harm when you come in contact with it (mostly causes jolting of the
+          hand and vibration.
+        </p>
+        <img src="../../images/jolt_1 (1).jpg" alt="discharge a capacitor with a piece of wire" />
+        <p>
+          So therefore you are advised to discharge all capacitors before
+          dumping them in your box i.e. by short circuiting them. You can use
+          a piece of wire stripped at both ends just as it is been discussed
+          lately or use a screw driver.
+        </p>
+        <h2>How will short circuit concept help us in circuit analysis?</h2>
+        <p>
+          Firstly, if you have a circuit (I mean be it a small or huge
+          circuit), let’s say this circuit shown below and the professor or the
+          textbook you are reading from draws a wire across the battery
+          terminal, as shown below.
+        </p>
+        <img src="../../images/prof_2.jpg" alt="example of short circuit" />
+
+        <p>
+          Just know that those resistors are of no use because all the current
+          will flow or follow the path with least resistance i.e. zero
+          resistance, rather than flowing through the 220ohms and 330ohms
+          resistors.
+        </p>
+        <p>
+          And this is one intuition of understanding how electricity works and
+          that’s why mostly people got shocked if their body possess little or no
+          resistance (i.e. if is sweat on the body
+          or hands, or foot are placed on the ground with no insulator in
+          between). But if we are to wear insulators like gloves, shoe etc.,
+          we would be saving ourself big time.
+        </p>
+
+        <blockquote class="blockquote">
+          <p class="little-nugget">A little tip</p>
+          <p class="quote-text">
+            while working with high voltage make sure to put one hand in your
+            pocket or at the back and use the other hand to do stuff.
+          </p>
+        </blockquote>
+        <p>
+          Again let us look at another scenario which is based on open circuit
+          (I love this concept so much).
+        </p>
+        <h2>The open circuit scenario</h2>
+        <p>
+          Firstly, here are the concepts that I want you to put at the back of
+          your mind.
+        </p>
+        <blockquote class="blockquote">
+          <p class="little-nugget">Always recall</p>
+          <p class="quote-text">
+            We have an open circuit only if a connecting point is broken at
+            any point or along the wire i.e. no current flowing since if you
+            could recall or have once hear this that current will only flow if
+            there is a closed path, and since the path is broken – no current
+            flow.
+          </p>
+        </blockquote>
+        <p>
+          Now here is something fascinating, what will be the voltage across
+          the terminal point a and b?
+        </p>
+        <img src="../../images/ocscenario_2.jpg" alt="example of open circuit" />
+        <p>
+          You might be tempted to start using ohms’ law right, c’mon. since no
+          current is flowing, no voltage-drop across the resistance therefore
+          the voltage at across point a and b equal the source voltage (or
+          voltage of the battery). also since the resistor doesn’t consume any
+          energy then it has no use there.
+        </p>
+
+
+
+        <p>
+          So in summary if you see any open circuit like that just consider
+          that the resistor is not there and just by looking at the circuit
+          you know what is what without even doing calculation.
+        </p>
+        <h2>The open circuit in real life</h2>
+        <p>
+          In real life, using same socket (220v) analogy, since you didn’t
+          connect anything to it, it is in an open circuited state and until
+          you connect something to both terminals before it is no longer an
+          open circuit.
+        </p>
+
+        <p>
+          You might also be curious enough and ask but no resistor there? Okay
+          now go ahead and I’m serious just take any resistor (make sure you
+          were glove or use a safety measure) and put the resistor in only on
+          one terminal as shown below and measure the voltage across the
+          terminals by using a voltmeter or a multi-meter and you will find
+          out that the resistor has no effect since no current is flowing
+          through it.
+        </p>
+        <img src="../../images/sockettest_3.jpg" alt="open circuit in real life using 220v socket" />
+
+        <blockquote class="blockquote">
+          <p class="little-nugget">PS.</p>
+          <p class="quote-text">
+            Always remember some of this cool stuff because that’s what makes
+            you confident as an engineer or engineering student.
+          </p>
+        </blockquote>
+        <br>
+        <h2>Let it stick</h2>
+        <p>Among the best way of learning to analyse circuits is, to write down the problem or question
+          from the textbook and try to solve it independently without looking at the solution first and if things does
+          go wrong, dont worry you can look at how to solve it.
+  </p>
+  <p>         The thing here is that you have registered the
+    problem into your brain and what's left is to find a solution to it which makes it easier to be able to solve
+    such type of problem whenever you see it again.</p>
+        <p>
+          Lastly as we’ve discussed before, not only understanding how things
+          links with each other in circuit analysis but also having a good
+          background in mathematics and topics like algebra and the likes.
+        </p>
+        <p>
+          But, if there is the case that you are having difficulty with
+          mathematics then I would suggest you taking free courses on
+          mathematics by Jason (math and science) or get the full course pack
+          on his site if you would love to learn more stuff on engineering
+          throughout your days in college or university as an engineering
+          student or even just a curious electronics hobbyist.
+        </p>
+      </div>
+      <!-- <p>love to ease the journey of learning circuit analysis here are comprehensive list of resourses you can bookmark
+        to help you learn circuit analysis</p> -->
+    </div>
+  </section>
+
+  <!-- ! Footer section begins -->
+  <footer>
+    <div class="container">
+      <div class="footer-content-block">
+        <div class="footer-resource">
+          <h2>Resource</h2>
+          <ul>
+            <li><a href="../..//more-resource/cramers-rule.html">Crammers rule</a></li>
+            <li><a href="../../learnca.html">Learn Circuit analysis</a></li>
+
+            <li><a href="../../#emag-for-now">Electromagnetic Theory</a></li>
+            <li><a href="../../more-resources.html">More resource</a></li>
+          </ul>
+        </div>
+        <div class="footer-community">
+          <h2>Community</h2>
+          <ul>
+            <li><a href="../../about.html">About us</a></li>
+            <li><a href="../../credits.html">Credits</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="../../sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-contribution">
+          <h2>Contribution</h2>
+          <ul>
+
+            <li><a href="../../donate.html">Donate + Help others learn</a></li>
+          </ul>
+        </div>
+        <div class="footer-connect">
+          <h2>Connect</h2>
           <a href="https://tooabstractive.quora.com/" target="_blank">
-              <svg
-                id="Layer_1"
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 118.87 122.88"
-              >
-                <defs>
-                  <style>
-                    .cls-10 {
-                      fill: #b72c27;
-                    }
-                  </style>
-                </defs>
-                <title>quora</title>
-                <path
-                  class="cls-10"
-                  d="M68.34,105.81a54.73,54.73,0,0,1-14.06,1.87C26.86,107.7,0,85.81,0,54,0,21.87,26.86,0,54.28,0c27.87,0,54.43,21.74,54.43,54A52.29,52.29,0,0,1,88.19,96c3.75,5.89,8,9.81,13.62,9.81,6.15,0,8.62-4.76,9.06-8.49h8v2.88c-.59,7.43-5.12,22.72-24.4,22.72-13.57,0-20.75-7.87-26.13-17.09v0Zm-5.1-10C59,87.44,54,79,44.23,79A14.1,14.1,0,0,0,38.61,80L35.29,73.4c4-3.47,10.56-6.19,18.75-6.19,13,0,19.71,6.28,25,14.3,3.15-6.84,4.64-16.08,4.64-27.55,0-28.6-8.93-43.11-29.83-43.11C33.27,10.85,24.4,25.55,24.4,54s8.91,43,29.49,43a32,32,0,0,0,9-1.16l.39,0Z"
-                />
-              </svg>
-            </a>
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              viewBox="0 0 118.87 122.88">
+              <defs>
+                <style>
+                  .cls-10 {
+                    fill: #b72c27;
+                  }
+                </style>
+              </defs>
+              <title>quora</title>
+              <path class="cls-10"
+                d="M68.34,105.81a54.73,54.73,0,0,1-14.06,1.87C26.86,107.7,0,85.81,0,54,0,21.87,26.86,0,54.28,0c27.87,0,54.43,21.74,54.43,54A52.29,52.29,0,0,1,88.19,96c3.75,5.89,8,9.81,13.62,9.81,6.15,0,8.62-4.76,9.06-8.49h8v2.88c-.59,7.43-5.12,22.72-24.4,22.72-13.57,0-20.75-7.87-26.13-17.09v0Zm-5.1-10C59,87.44,54,79,44.23,79A14.1,14.1,0,0,0,38.61,80L35.29,73.4c4-3.47,10.56-6.19,18.75-6.19,13,0,19.71,6.28,25,14.3,3.15-6.84,4.64-16.08,4.64-27.55,0-28.6-8.93-43.11-29.83-43.11C33.27,10.85,24.4,25.55,24.4,54s8.91,43,29.49,43a32,32,0,0,0,9-1.16l.39,0Z" />
+            </svg>
+          </a>
 
-            <a href="https://wa.me/+2347080462912?text=Connect%20with%20us">
-              <svg
-                id="Layer_1"
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                width="22"
-                height="22"
-                viewBox="0 0 122.88 122.88"
-              >
-                <defs>
-                  <style>
-                    .cls-11 {
-                      fill: #25d366;
-                    }
+          <a href="https://wa.me/+2347080462912?text=Connect%20with%20us">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+              viewBox="0 0 122.88 122.88">
+              <defs>
+                <style>
+                  .cls-11 {
+                    fill: #25d366;
+                  }
 
-                    .cls-11,
-                    .cls-2 {
-                      fill-rule: evenodd;
-                    }
+                  .cls-11,
+                  .cls-2 {
+                    fill-rule: evenodd;
+                  }
 
-                    .cls-2 {
-                      fill: #fff;
-                    }
-                  </style>
-                </defs>
-                <title>whatsapp-round-color</title>
-                <path
-                  class="cls-11"
-                  d="M61.44,0A61.44,61.44,0,1,1,0,61.44,61.44,61.44,0,0,1,61.44,0Z"
-                />
-                <path
-                  class="cls-2"
-                  d="M77,67.57c-.76-.39-4.52-2.23-5.22-2.49s-1.2-.38-1.72.39-2,2.48-2.43,3-.89.58-1.65.19a20.93,20.93,0,0,1-6.14-3.8,23.3,23.3,0,0,1-4.26-5.29A1.1,1.1,0,0,1,55.92,58c.35-.34.76-.89,1.15-1.34a5.34,5.34,0,0,0,.76-1.28,1.43,1.43,0,0,0-.06-1.34c-.2-.38-1.73-4.14-2.35-5.68s-1.26-1.28-1.73-1.31-.95,0-1.46,0a2.82,2.82,0,0,0-2,1,8.58,8.58,0,0,0-2.68,6.38c0,3.76,2.74,7.39,3.12,7.91S56,70.52,63.7,73.82a45.51,45.51,0,0,0,4.35,1.62,10.43,10.43,0,0,0,4.81.3c1.47-.21,4.52-1.84,5.16-3.63a6.37,6.37,0,0,0,.45-3.63c-.18-.34-.69-.53-1.46-.92Zm7.7-28a30.59,30.59,0,0,0-48.13,36.9L32.23,92.3l16.22-4.25a30.61,30.61,0,0,0,14.6,3.72h0A30.59,30.59,0,0,0,84.69,39.55ZM63.07,86.61a25.46,25.46,0,0,1-13-3.54l-.93-.56L39.57,85l2.57-9.38-.6-1A25.41,25.41,0,1,1,63.06,86.61Z"
-                />
-              </svg>
-            </a>
-            <a href="https://formsubmit.co/el/fufuye" target="_blank">
-              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="22"
-              height="22" viewBox="0 0 122.88 85.57"><title>mail</title><path d="M3.8,0,62.48,47.85,118.65,0ZM0,80.52,41.8,38.61,0,4.53v76ZM46.41,42.37,3.31,85.57h115.9L78,42.37,64.44,53.94h0a3,3,0,0,1-3.78.05L46.41,42.37Zm36.12-3.84,40.35,42.33V4.16L82.53,38.53Z"/></svg>
-            </a>
-          </div>
+                  .cls-2 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <title>whatsapp-round-color</title>
+              <path class="cls-11" d="M61.44,0A61.44,61.44,0,1,1,0,61.44,61.44,61.44,0,0,1,61.44,0Z" />
+              <path class="cls-2"
+                d="M77,67.57c-.76-.39-4.52-2.23-5.22-2.49s-1.2-.38-1.72.39-2,2.48-2.43,3-.89.58-1.65.19a20.93,20.93,0,0,1-6.14-3.8,23.3,23.3,0,0,1-4.26-5.29A1.1,1.1,0,0,1,55.92,58c.35-.34.76-.89,1.15-1.34a5.34,5.34,0,0,0,.76-1.28,1.43,1.43,0,0,0-.06-1.34c-.2-.38-1.73-4.14-2.35-5.68s-1.26-1.28-1.73-1.31-.95,0-1.46,0a2.82,2.82,0,0,0-2,1,8.58,8.58,0,0,0-2.68,6.38c0,3.76,2.74,7.39,3.12,7.91S56,70.52,63.7,73.82a45.51,45.51,0,0,0,4.35,1.62,10.43,10.43,0,0,0,4.81.3c1.47-.21,4.52-1.84,5.16-3.63a6.37,6.37,0,0,0,.45-3.63c-.18-.34-.69-.53-1.46-.92Zm7.7-28a30.59,30.59,0,0,0-48.13,36.9L32.23,92.3l16.22-4.25a30.61,30.61,0,0,0,14.6,3.72h0A30.59,30.59,0,0,0,84.69,39.55ZM63.07,86.61a25.46,25.46,0,0,1-13-3.54l-.93-.56L39.57,85l2.57-9.38-.6-1A25.41,25.41,0,1,1,63.06,86.61Z" />
+            </svg>
+          </a>
+          <a href="https://formsubmit.co/el/fufuye" target="_blank">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+              viewBox="0 0 122.88 85.57">
+              <title>mail</title>
+              <path
+                d="M3.8,0,62.48,47.85,118.65,0ZM0,80.52,41.8,38.61,0,4.53v76ZM46.41,42.37,3.31,85.57h115.9L78,42.37,64.44,53.94h0a3,3,0,0,1-3.78.05L46.41,42.37Zm36.12-3.84,40.35,42.33V4.16L82.53,38.53Z" />
+            </svg>
+          </a>
         </div>
+      </div>
 
-        <div class="trademark">
-          <p>
-            ©
-            <script>
-              var CurrentYear = new Date().getFullYear();
-              document.write(`${CurrentYear},`);
-            </script>
-            Tooabstractive.io - Limit The Boring Stuff.
-            <br />
-            Crafted with
-            <span
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12.832"
-                height="11.772"
-                viewBox="0 0 12.832 11.772"
-              >
-                <g
-                  id="Group_169"
-                  data-name="Group 169"
-                  transform="translate(-272.208 -1202.271)"
-                >
-                  <path
-                    id="Union_1"
-                    data-name="Union 1"
-                    d="M6.416,11.772h0C6.3,11.712-1.985,7.44.446,2.089c.834-1.837,4.281-3.814,5.969.5,1.688-4.309,5.136-2.333,5.971-.5,2.43,5.351-5.854,9.623-5.97,9.682h0Z"
-                    transform="translate(272.208 1202.271)"
-                    fill="#2D79E4"
-                  />
-                </g>
-              </svg>
-            </span>
-            and made possible by the will of the almighty.
-          </p>
-        </div>
+      <div class="trademark">
+        <p>
+          ©
+          <script>
+            var CurrentYear = new Date().getFullYear();
+            document.write(`${CurrentYear},`);
+          </script>
+          Tooabstractive.com - Limit The Boring Stuff.
+          <br />
+          Crafted with
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="12.832" height="11.772" viewBox="0 0 12.832 11.772">
+              <g id="Group_169" data-name="Group 169" transform="translate(-272.208 -1202.271)">
+                <path id="Union_1" data-name="Union 1"
+                  d="M6.416,11.772h0C6.3,11.712-1.985,7.44.446,2.089c.834-1.837,4.281-3.814,5.969.5,1.688-4.309,5.136-2.333,5.971-.5,2.43,5.351-5.854,9.623-5.97,9.682h0Z"
+                  transform="translate(272.208 1202.271)" fill="#2D79E4" />
+              </g>
+            </svg>
+          </span>
+          and made possible by the will of the almighty.
+        </p>
+      </div>
 
-        <div class="logo-footer">
-          <svg
-            width="42"
-            height="42"
-            version="1.1"
-            viewBox="0 0 74.124 74.124"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g transform="translate(-342.94 -754.37)">
-              <g transform="translate(-585 -4849.6)">
-                <circle
-                  cx="965"
-                  cy="5641"
-                  r="37.062"
-                  fill="#2d79e4"
-                  stroke-width=".72671"
-                  data-name="Ellipse 11"
-                />
-                <g
-                  transform="matrix(.89413 0 0 .89413 945.66 5614.8)"
-                  data-name="Group 223"
-                >
-                  <path
-                    transform="translate(-1567 -55.139)"
-                    d="m1606.8 63.82c17.736 35.605-39.866 1.237-39.866 1.237l13.031 48.584s9.101-85.426 26.835-49.821z"
-                    fill="none"
-                    stroke="#fff"
-                    stroke-linejoin="round"
-                    stroke-width="3"
-                    data-name="Path 261"
-                  />
-                </g>
+      <div class="logo-footer">
+        <svg width="42" height="42" version="1.1" viewBox="0 0 74.124 74.124" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(-342.94 -754.37)">
+            <g transform="translate(-585 -4849.6)">
+              <circle cx="965" cy="5641" r="37.062" fill="#2d79e4" stroke-width=".72671" data-name="Ellipse 11" />
+              <g transform="matrix(.89413 0 0 .89413 945.66 5614.8)" data-name="Group 223">
+                <path transform="translate(-1567 -55.139)"
+                  d="m1606.8 63.82c17.736 35.605-39.866 1.237-39.866 1.237l13.031 48.584s9.101-85.426 26.835-49.821z"
+                  fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3" data-name="Path 261" />
               </g>
             </g>
-          </svg>
-        </div>
+          </g>
+        </svg>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script defer src="../../js/script.js"></script>
-  </body>
+  <script defer src="../../js/script.js"></script>
+</body>
+
 </html>
