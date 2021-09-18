@@ -186,6 +186,7 @@ li br {
 img {
   margin: 3rem auto;
   max-width: 100%;
+  min-height: 18rem;
   max-height: 25rem;
   display: block;
   border: 0.1rem solid var(--slidebar-color);
