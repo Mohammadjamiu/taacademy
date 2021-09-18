@@ -32,7 +32,7 @@ p {
   margin: 3rem auto 1rem;
   align-self: center;
   position: absolute;
-  top: 9.4rem;
+  top: 10rem;
   left: 45%;
 }
 
@@ -186,7 +186,7 @@ li br {
 img {
   margin: 3rem auto;
   max-width: 100%;
-  min-height: 18rem;
+  min-height: 17rem;
   max-height: 25rem;
   display: block;
   border: 0.1rem solid var(--slidebar-color);
@@ -253,7 +253,8 @@ button.see-answer {
 
 img.lca-image {
   width: 100%;
-  height: 14rem;
+  min-height: 15rem;
+  max-height: 15rem;
   border: 0;
   border-bottom: 0.1rem solid var(--primary-color);
 
