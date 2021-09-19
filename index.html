@@ -34,6 +34,11 @@
   <link rel="stylesheet" href="css/layout.css" />
   <link rel="stylesheet" href="css/main-style.css" />
 
+  <link
+  rel="stylesheet"
+  href="css/swiper.min.css"
+/>
+
       <!--! TITLE TAGS -->
       <title>Tooabstractive - Limit the boring stuff.</title>
 
@@ -651,7 +656,7 @@
   </section>
 
   <!-- ! Learn one-on-one section -->
-  <section class="learn-one-on-one">
+  <!-- <section class="learn-one-on-one">
     <div class="container">
       <div>
         <h2 class="in-kano">Leaving in Kano, Nigeria!</h2>
@@ -671,6 +676,83 @@
 
         <a href="https://wa.me/+2347080462912?text=Connect%20with%20us" class="quote-us-whatsapp">or whatsapp us</a>
       </div>
+    </div>
+  </section> -->
+  <section class="learn-one-on-one">
+    <div class="container">
+      <div>
+        <h2 class="in-kano">Leaving in Kano, Nigeria!</h2>
+      </div>
+      <h3>It's great then, learn one-on-one at just a penny.</h3>
+
+        <!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    
+         <!-- This is where each posts start from -->
+         <a href="/more-resource/how-to-solve-equation-using-calculator.html" class="swiper-slide post post-1">
+
+          <img src="/images/reset_2.jpg" alt="" />
+          <h3>
+            How to use a calculator to solve simultaneous equation fast - step
+            by step
+          </h3>
+
+          <div class="post-1-more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+              <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+                fill="#2d79e4" />
+            </svg>
+          </div>
+        </a>
+     <!-- This is where each posts start from -->
+     <a href="/more-resource/how-to-solve-equation-using-calculator.html" class="swiper-slide post post-1">
+
+      <img src="/images/reset_2.jpg" alt="" />
+      <h3>
+        How to use a calculator to solve simultaneous equation fast - step
+        by step
+      </h3>
+
+      <div class="post-1-more">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+          <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+            fill="#2d79e4" />
+        </svg>
+      </div>
+    </a>
+      <!-- This is where each posts start from -->
+      <a href="/more-resource/how-to-solve-equation-using-calculator.html" class="swiper-slide post post-1">
+
+        <img src="/images/reset_2.jpg" alt="" />
+        <h3>
+          How to use a calculator to solve simultaneous equation fast - step
+          by step
+        </h3>
+
+        <div class="post-1-more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+            <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+              fill="#2d79e4" />
+          </svg>
+        </div>
+      </a>
+    <!-- <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div> -->
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
     </div>
   </section>
   <br>
@@ -832,6 +914,30 @@
   </footer>
 
   <script defer src="js/script.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js">
+  </script>
+  <script>  
+   const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      // direction: 'vertical',
+      // loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });</script>
 </body>
 
 </html>

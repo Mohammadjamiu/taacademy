@@ -118,6 +118,33 @@ h2.curious::after {
   padding-bottom: 1.5rem;
 }
 
+.swiper-container {
+  /* width: 600px;
+  height: 500px; */
+  height: 30rem; 
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  background-color: #fff;
+  max-width: 39.5rem;
+  margin: auto;
+  border-radius: .4rem;
+}
+
+.swiper-container a h3{
+  height: 18rem;
+  font-size: 1.62rem;
+  color: var(--slidebar-color);
+  padding: 2rem 1.5rem;
+  z-index: 2;
+}
+.swiper-slide{
+  display: block;
+}
+
+
 .post {
   display: block;
   height: 32rem;
