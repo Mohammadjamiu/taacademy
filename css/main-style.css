@@ -13,9 +13,6 @@
   --telecoms-color: #295ea0;
 }
 
-
-
-
 /* ! Hero section style */
 
 section.hero {
@@ -121,7 +118,7 @@ h2.curious::after {
 .swiper-container {
   /* width: 600px;
   height: 500px; */
-  height: 30rem; 
+  height: 30rem;
   margin: 3rem 0 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
@@ -130,22 +127,22 @@ h2.curious::after {
   background-color: #fff;
   max-width: 39.5rem;
   margin: auto;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
 }
 
-.swiper-container a h3{
+.swiper-container a h3 {
   height: 18rem;
   font-size: 1.62rem;
   color: var(--slidebar-color);
   padding: 2rem 1.5rem;
   z-index: 2;
 }
-.swiper-slide{
+.swiper-slide {
   display: block;
 }
 
-
 .post {
+  background-color: #fff;
   display: block;
   height: 32rem;
   max-width: 100%;
@@ -157,6 +154,8 @@ h2.curious::after {
   position: relative;
   text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
+  /* z-index: 2000; */
+  margin: 0 0.5rem;
 }
 .post img {
   width: 100%;
@@ -171,6 +170,7 @@ h2.curious::after {
   font-size: 1.62rem;
   color: var(--slidebar-color);
   padding: 2rem 1.5rem;
+  z-index: 2000;
 }
 
 .post-1-more {
@@ -459,6 +459,14 @@ h2.still-pending::after {
   text-align: center;
 }
 
+/* .learn-one-on-one .posts {
+  margin: 3rem auto 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  gap: 30rem;
+  padding-bottom: 1.5rem;
+} */
+
 .learn-one-on-one h2 {
   display: inline-block;
   color: #fff;
@@ -479,13 +487,14 @@ h2.still-pending::after {
   text-align: center;
 }
 
-.learn-one-on-one h3 {
+/* .learn-one-on-one h3 {
   font-size: 1.62rem;
   font-family: "Muli", sans-serif;
   font-weight: normal;
-  color: #fff;
+   color: #fff; 
+
   margin-bottom: 3rem;
-}
+} */
 
 .learn-one-on-one .my-form {
   height: 34rem;
@@ -733,4 +742,3 @@ h2.one-fold::after {
     font-size: 1.65rem;
   }
 }
-
