@@ -21,22 +21,92 @@ section.ourpost-foreground h3 {
   font-weight: 400;
   text-align: center;
   color: #fff;
+  
 }
 
 div.tag-to-others{
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 1rem; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3rem .3rem .3rem .3rem;
+  text-transform: capitalize;
+  font-size: 1.62rem;
 }
-.tag-to-others a {
+
+
+.tto-h2{
+
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+  font-weight: 400;
+  
+
+ 
+}
+.tag-to-others a.tto-ca {
+  font-size: 1.5rem;
 padding-right: 2rem;
-color: #fff;
+color: var(--primary-color);
+background: rgba(45, 121, 228, .3);
+display: inline-block;
 
+padding: .5rem ;
+border-radius: .2rem;
+margin: .3em;
 
 }
+
+.tag-to-others a.tto-emag {
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  color: rgb(228, 152, 45);
+  background: rgba(228, 152, 45, .3);
+  display: inline-block;
+
+  padding: .5rem ;
+border-radius: .2rem;
+margin: .3rem;
+
+  }
+
+
+  .tag-to-others a.tto-pfe {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    background: rgba(45, 121, 228, .35);
+
+    color: var(--primary-color);
+    display: inline-block;
+ 
+    padding: .5rem ;
+border-radius: .2rem;
+margin: .3rem;
+
+    }
+    .tag-to-others a.tto-telecoms {
+      font-size: 1.5rem;
+      padding-right: 2rem;
+      color: rgb(41, 94, 160);
+      background: rgba(41, 94, 160, .4);
+      display: inline-block;
+    
+      padding: .5rem ;
+border-radius: .2rem;
+margin: .3rem;
+      }
+
+
+
+
 
 section.our-post {
   margin: 1rem 0 4.5rem 0;
