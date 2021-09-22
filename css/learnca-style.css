@@ -179,6 +179,15 @@ ol li {
   line-height: 1.6;
 }
 
+ul li {
+  list-style-type: disc;
+  color: var(--slidebar-color);
+  font-size: 1.55rem;
+  margin: 1.1rem 2rem;
+  padding-left: 0.9rem;
+  line-height: 1.6;
+}
+
 li br {
   margin: 0 0 1rem 0;
 }
