@@ -481,7 +481,7 @@ color: var(--slidebar-color);
 }
 
 .learn-one-on-one .my-form  img{
-  
+  height: 16rem;
   border-top-right-radius: .4rem;
   border-top-left-radius: .4rem;
 }
