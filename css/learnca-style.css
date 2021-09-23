@@ -179,7 +179,7 @@ ol li {
   line-height: 1.6;
 }
 
-ul li {
+ul.ul-in-post li {
   list-style-type: disc;
   color: var(--slidebar-color);
   font-size: 1.55rem;
