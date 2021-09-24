@@ -13,9 +13,6 @@
   --telecoms-color: #295ea0;
 }
 
-
-
-
 /* ! Hero section style */
 
 section.hero {
@@ -208,7 +205,7 @@ h2.problem-solved::after {
 }
 
 .ask-ta p {
-  margin: 5rem 0 ;
+  margin: 5rem 0;
   color: #fff;
   font-size: 1.62rem;
   line-height: 1.5;
@@ -309,20 +306,20 @@ input[type="file"] {
   display: inline-block;
   border-radius: 0.4rem;
   border: 2px solid var(--primary-color);
-  
+
   color: #fff;
 }
 
 .ask-ta button:hover,
 .ask-ta button:focus {
   color: var(--primary-color);
- 
+
   background-color: #ececec;
 }
 
 /* ! Wow electromag style */
 
-.wow-electromag{
+.wow-electromag {
   padding: 5rem 0 2rem;
   background: #fefefe;
 }
@@ -341,7 +338,7 @@ h2.the-next::after {
   content: "";
   background-color: var(--complementary-color);
   height: 0.2rem;
-  width: 21rem;
+  width: 23rem;
   display: block;
   border-radius: 0.1rem;
 }
@@ -350,19 +347,19 @@ h2.the-next-electromag::after {
   content: "";
   background-color: var(--complementary-color);
   height: 0.2rem;
-  width: 15rem;
+  width: 18rem;
   display: block;
   border-radius: 0.1rem;
 }
 
-h2.still-pending::after {
+/* h2.still-pending::after {
   content: "";
   background-color: var(--complementary-color);
   height: 0.2rem;
   width: 10rem;
   display: block;
   border-radius: 0.1rem;
-}
+} */
 
 .wow-electromag p {
   font-size: 1.62rem;
@@ -386,13 +383,13 @@ h2.still-pending::after {
 }
 
 .wpost {
-color: var(--slidebar-color);
+  color: var(--slidebar-color);
   display: block;
   height: 32rem;
   width: 100%;
   box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
   border-radius: 0.2rem;
- 
+
   line-height: 1.5;
   position: relative;
   text-transform: capitalize;
@@ -473,24 +470,22 @@ color: var(--slidebar-color);
   margin: 2rem 0;
 }
 
-.learn-one-on-one .my-form  a{
- background-color: #fefefe;
- display: inline-block;
- border-radius: .4rem;
- 
+.learn-one-on-one .my-form a {
+  background-color: #fefefe;
+  display: inline-block;
+  border-radius: 0.4rem;
 }
 
-.learn-one-on-one .my-form  img{
+.learn-one-on-one .my-form img {
   height: 16rem;
-  border-top-right-radius: .4rem;
-  border-top-left-radius: .4rem;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
 }
-.learn-one-on-one .my-form  a h3{
+.learn-one-on-one .my-form a h3 {
   font-family: "MuliBold", sans-serif;
   font-weight: normal;
 
   color: var(--slidebar-color);
- 
 }
 
 .learn-one-on-one input[type="email"]:focus,
@@ -710,11 +705,11 @@ h2.one-fold::after {
   }
 
   h2.the-next::after {
-    width: 24rem;
+    width: 27rem;
   }
 
   h2.the-next-electromag::after {
-    width: 16rem;
+    width: 19rem;
   }
 
   h2.still-pending::after {
@@ -735,4 +730,3 @@ h2.one-fold::after {
     font-size: 1.65rem;
   }
 }
-
