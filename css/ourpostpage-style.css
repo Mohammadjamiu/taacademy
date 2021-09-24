@@ -21,10 +21,9 @@ section.ourpost-foreground h3 {
   font-weight: 400;
   text-align: center;
   color: #fff;
-  
 }
 
-div.tag-to-others{
+div.tag-to-others {
   /* background-color: var(--primary-color);
   display: flex;
   flex-direction: row;
@@ -34,82 +33,69 @@ div.tag-to-others{
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
-  margin: 3rem .3rem .3rem .3rem;
+  margin: 3rem 0.3rem 0.3rem 0.3rem;
   text-transform: capitalize;
   font-size: 1.62rem;
 }
 
-
-.tto-h2{
-
+.tto-h2 {
   font-size: 1.7rem;
   text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
   font-weight: 400;
-  
-
- 
 }
 .tag-to-others a.tto-ca {
   font-size: 1.5rem;
-padding-right: 2rem;
-color: var(--primary-color);
-background: rgba(45, 121, 228, .3);
-display: inline-block;
-
-padding: .5rem ;
-border-radius: .2rem;
-margin: .3em;
-
+  padding-right: 2rem;
+  color: var(--primary-color);
+  background: rgba(45, 121, 228, 0.3);
+  display: inline-block;
+  width: 24rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.3em;
 }
 
 .tag-to-others a.tto-emag {
   font-size: 1.5rem;
   padding-right: 2rem;
   color: rgb(228, 152, 45);
-  background: rgba(228, 152, 45, .3);
+  background: rgba(228, 152, 45, 0.3);
+  display: inline-block;
+  width: 24rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.3rem;
+}
+
+.tag-to-others a.tto-pfe {
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  background: rgba(45, 121, 228, 0.35);
+  width: 24rem;
+  color: var(--primary-color);
   display: inline-block;
 
-  padding: .5rem ;
-border-radius: .2rem;
-margin: .3rem;
-
-  }
-
-
-  .tag-to-others a.tto-pfe {
-    font-size: 1.5rem;
-    padding-right: 2rem;
-    background: rgba(45, 121, 228, .35);
-
-    color: var(--primary-color);
-    display: inline-block;
- 
-    padding: .5rem ;
-border-radius: .2rem;
-margin: .3rem;
-
-    }
-    .tag-to-others a.tto-telecoms {
-      font-size: 1.5rem;
-      padding-right: 2rem;
-      color: rgb(41, 94, 160);
-      background: rgba(41, 94, 160, .4);
-      display: inline-block;
-    
-      padding: .5rem ;
-border-radius: .2rem;
-margin: .3rem;
-      }
-
-
-
-
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.3rem;
+}
+.tag-to-others a.tto-telecoms {
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  color: rgb(41, 94, 160);
+  background: rgba(41, 94, 160, 0.4);
+  display: inline-block;
+  width: 24rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.3rem;
+}
 
 section.our-post {
-  margin: 1rem 0 4.5rem 0;
+  margin: 1rem 0 0rem 0;
 }
 
 section.content-section .our-post h2 {
@@ -137,4 +123,8 @@ h2.the-next::after {
   color: var(--black-shade);
 
   background-color: var(--complementary-color);
+}
+
+section.telecoms-in-one-fold {
+  margin-top: 4.5rem;
 }
