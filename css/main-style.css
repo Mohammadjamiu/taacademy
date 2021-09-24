@@ -338,7 +338,7 @@ h2.the-next::after {
   content: "";
   background-color: var(--complementary-color);
   height: 0.2rem;
-  width: 23rem;
+  width: 25rem;
   display: block;
   border-radius: 0.1rem;
 }
