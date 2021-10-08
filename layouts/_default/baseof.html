@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{/* head */}}
+  <head>
+{{ partial "analytics_mainstyles" .}}
+{{ partial "metatags.html" .}}
+  </head>
+
+  <body>
+{{ partial "tagmanager_closetag.html" .}}
+{{ partial "header.html" .}}
+{{ block "main" . }}
+
+
+{{ end }}
+{{ partial "footer.html" . }}
+{{ partial "js.html" . }}
+   
+</body>
+
+</html>

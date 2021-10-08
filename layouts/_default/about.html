@@ -1,0 +1,86 @@
+{{ define "main"}}
+
+  <!--! Our post section -->
+  <section class="ourpost-foreground">
+    <div class="container">
+      <h2>About Us</h2>
+      <h3>Knowing about something isn't a big deal or is it?</h3>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2 class="story-block">The Story Block</h2>
+
+      <p>
+        Been an engineering student is great but the nitty-gritty is rough. To
+        say, the two most abstractive electrical engineering course most
+        student do have problem with is <span>Circuit Analysis</span> and
+        <span>Electromagnetics.</span>
+      </p>
+      <p>
+        Wait, there is still more - telecommunications & networking concepts and productivity for engineering students
+        needs to be demystified and simplified also.
+      </p>
+      <p>
+        <u>Circuit Analysis</u> is a little bit straight forward but for
+        <u>Electromagnetics</u>, forget it. It's full of abstraction and it is
+        the reason why we stood up to :
+      </p>
+
+      <p class="reason-one">
+        Limit the use of big textbooks if what we are looking for can be
+        learnt in no time.
+      </p>
+      <p class="reason-two">
+        Limit the boring and abstractive courses by explaining stuff in a
+        better way.
+      </p>
+      <p class="reason-three">
+        Help engineering student to find a small cloud where they can get some
+        of their problem sets solved.
+      </p>
+      <p class="reason-four">
+        Go an extra mile to help engineering student on how to be productive and be unique.
+      </p>
+
+      <div class="more-info">
+        <h2 class="something-to-say">Anything to say</h2>
+        <p>
+          Feel free to get in touch with us on any stuff that might look
+          abstractive to you, cheers. We're waiting to hear from you.
+        </p>
+      
+      </div>
+
+      <!-- ! Form for Get quote -->
+      <div class="my-form">
+        <form
+          action="https://formsubmit.co/10ae5eac92717d7297345978e4e3230b"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            cols="20"
+            rows="10"
+            placeholder="Tell us something."
+          ></textarea>
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://talaunch.netlify.com/thank-you.html"
+          />
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+{{ end }}

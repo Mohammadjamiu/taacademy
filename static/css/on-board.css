@@ -1,0 +1,48 @@
+
+    body{
+      background-color: var(--slidebar-color);
+      
+    }
+    .we-get-back-body{
+      background-color: var(--slidebar-color);
+      margin: 5rem auto;
+      max-width: 700px;
+
+    }
+
+    .we-get-back-body h2{
+     font-size: 3rem;
+     color: #fff;
+     margin: 1rem 0;
+    }
+
+    .okay-on-board::after{
+  content: "";
+  background-color: var(--primary-color);
+  /* background: #fff; */
+  height: 0.2rem;
+  width: 10rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+
+
+    .we-get-back-body h3{
+     font-size: 1.8rem;
+     color: #ddd;
+     margin: 1.8rem 0;
+     font-weight: 500;
+    }
+
+    .we-get-back-body a{
+     font-size: 1.6rem;
+     color: var(--primary-color);
+     display: inline-block;
+     text-decoration: underline;
+    }
+
+    .we-get-back-body a::before{
+      content: '\2190';
+    }
+

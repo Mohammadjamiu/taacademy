@@ -1,0 +1,47 @@
+{{ define "main"}}
+<section class="ourpost-foreground">
+    <div class="container">
+      <h2> {{ .Params.Title }}</h2>
+    
+
+      {{ $readingTime := .ReadingTime }}
+      {{ $readingTime := print $readingTime "mins" | safeHTML }}
+    
+      <p class="description-lca">
+        <!--! Date is August 20 2021 -->
+       By {{ .Params.author }} | {{ .Params.PostDate }} | 
+        <a class="on-what-topic-lca" href="{{.Params.Categorylink}}">{{ index .Params.Categories 0 }}</a> | Estimated Reading Time - {{ $readingTime }}
+         
+      </p>
+    </div>
+  </section>
+
+  <section class="pagebody">
+    <div class="container">
+     
+{{ .Content }}
+     
+<div>
+
+  <div class="lca-navigation">
+    {{with .PrevInSection }}
+    <a href="{{.RelPermalink}}" class="lca-nav-next">
+      {{.Title}}
+    </a>
+    {{end}}
+    {{with .NextInSection }}
+    <a href="{{.RelPermalink}}" class="lca-nav-prev">
+      {{.Title}} </a>
+    {{end}}
+</div>
+
+</div>
+    </div>
+  </section>
+
+
+
+
+
+
+{{end}}

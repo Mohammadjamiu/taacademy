@@ -1,0 +1,856 @@
+:root {
+  --black-shade: #222325;
+
+  --footer-color: #f5f5f5;
+  --primary-color: #2d79e4;
+  --complementary-color: #e4982d;
+
+  --slidebarb-color: #061830;
+
+  --slidebar-color: #091b31;
+  --whatsapp-color: #20bb59;
+
+  --telecomsold-color: #e45d2f;
+  --telecoms-color: #295ea0;
+}
+
+/* ! Hero section style */
+
+section.hero {
+  background-color: var(--slidebar-color);
+  padding: 4rem 0;
+  position: relative;
+}
+
+.hero .limit {
+  font-size: 2.25rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+  color: #fff;
+}
+
+.hero .limit::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 14rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+.hero .stuff {
+  font-size: 2.25rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+  color: #fff;
+}
+
+.hero .stuff::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 6rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+.hero span {
+  text-decoration: underline;
+}
+
+.hero .hero-say {
+  margin: 2.5rem 0;
+  max-width: 75%;
+  font-family: "Muli", sans-serif;
+  font-size: 1.645rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #f1f1f1;
+}
+
+.hero-btn {
+  font-size: 1.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 1px 4px 8px rgba(45, 121, 228, 0.089);
+}
+
+.hero .svg-reading-box {
+  margin: 3rem 0 0 0;
+  position: relative;
+  height: 25rem;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero .svg-reading-image {
+  height: 100%;
+  position: absolute;
+  right: -1rem;
+}
+
+/* ! Our post style  */
+
+section.our-post,
+.our-post-more-r,
+section.wow-electromag, section.related-post {
+  background-color: #fdfdfd;
+}
+
+h2.curious,
+h2.curious-more-r {
+  font-size: 2.25rem;
+  padding: 2.8rem 0 1rem;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+  color: var(--slidebar-color);
+}
+
+/* more r = more resources */
+
+h2.curious::after,
+h2.curious-more-r::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 12rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.curious-more-r::after {
+  width: 14rem;
+}
+.posts {
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 4rem;
+  /* padding-bottom: 1.5rem; */
+}
+
+.posts-more-r {
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.post {
+  display: block;
+  height: 32rem;
+  max-width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fbfafa;
+  border-radius: 0.4rem;
+  /* padding: 2rem 1.5rem; */
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+  /* margin-bottom: 4rem; */
+}
+
+.post-more-r {
+  display: flex;
+  height: 15rem;
+  max-width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0.4rem;
+  /* padding: 2rem 1.5rem; */
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+.post img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  border-bottom: 0.1rem solid var(--primary-color);
+  padding: 0.4rem 0.1rem 0 0.1rem;
+  border-radius: 0.3rem;
+}
+
+.post-more-r .div-more-r {
+  width: 22rem;
+  height: 15rem;
+
+  /* border-right: 0.2rem solid var(--primary-color); */
+  /* border-right: 0.15rem solid var(--slidebarb-color); */
+
+  border-radius: 0.2rem;
+  background-size: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-more-r .img-more-r {
+  height: 10.5rem;
+  width: 7.5rem;
+  object-fit: cover;
+
+  background-image: url(/images/lightup.svg);
+  border-radius: 0.2rem;
+  background-size: 8rem;
+  background-repeat: no-repeat;
+}
+.post-more-r .img-more-r-1 {
+  height: 9rem;
+  width: 8rem;
+  object-fit: cover;
+
+  background-image: url(/images/lightup2.svg);
+  border-radius: 0.2rem;
+  background-size: 8rem;
+  background-repeat: no-repeat;
+}
+.post h3 {
+  height: 16rem;
+  font-size: 1.645rem;
+  color: var(--slidebar-color);
+  padding: 2rem 1.5rem;
+}
+
+.post-more-r h3 {
+  height: 15rem;
+  background-color: #f5f5f5;
+  font-size: 1.5rem;
+  color: var(--slidebar-color);
+  padding: 2rem 1.5rem;
+}
+
+.post-1-more {
+  /* padding: 2rem 1.5rem; */
+  position: absolute;
+  bottom: 2.2rem;
+  right: 2.8rem;
+}
+
+.explore-more {
+  display: inline-block;
+}
+
+.explore-more h2 {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+/* ! Ask Ta style */
+
+section.ask-ta {
+  margin: 5rem 0 0 0;
+  padding: 5rem 0;
+
+  background-color: #152c49;
+}
+section.about-ta-homepage {
+  /* margin: 5rem 0 0 0; */
+  padding: 4rem 0;
+
+  background-color: #152c49;
+}
+
+h2.do-you-want {
+  color: #fff;
+  font-size: 2.25rem;
+  margin-bottom: 0.4rem;
+  font-family: "MuliBold", sans-serif;
+  text-transform: capitalize;
+}
+
+h2.do-you-want::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 22rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.problem-solved {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 2.25rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.problem-solved::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 14rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.about-ta-homepage-headline {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 2.25rem;
+
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.about-ta-homepage-headline::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 8.5rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+.ask-ta p {
+  margin: 5rem 0;
+  color: #fff;
+  font-size: 1.645rem;
+  line-height: 1.5;
+}
+.about-ta-homepage p {
+  margin: 3.5rem 0;
+  color: #fff;
+  font-size: 1.645rem;
+  line-height: 1.5;
+}
+
+.ask-ta .my-form,
+.content-section .my-form {
+  /* background-color: #081d38; */
+  background-color: #ececec;
+  box-shadow: 0px -1px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+  padding: 2.2rem;
+  height: 38rem;
+  position: relative;
+  z-index: 100;
+}
+
+.my-form h2 {
+  color: var(--slidebar-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+.ask-ta form,
+.learn-one-on-one form,
+.content-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+input,
+textarea,
+.learn-one-on-one input,
+.learn-one-on-one textarea,
+.content-section input,
+.content-section textarea {
+  width: 100%;
+}
+
+input[type="email"],
+textarea,
+.learn-one-on-one input[type="email"],
+.learn-one-on-one textarea,
+.content-section input[type="email"],
+.content-section textarea {
+  height: 4rem;
+  border-radius: 0.3rem;
+  border: 0px solid #091b31;
+
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  font-family: "Muli", sans-serif;
+  background-color: hsla(214, 75%, 13%, 0.103);
+  color: var(--slidebar-color);
+}
+
+textarea,
+.learn-one-on-one textarea,
+.content-section textarea {
+  height: 12rem;
+  font-size: 1.41rem;
+}
+
+input[type="email"]:focus,
+textarea:focus,
+.content-section input[type="email"]:focus,
+.content-section textarea:focus {
+  outline-style: none;
+  border: 1px solid var(--primary-color);
+}
+
+input[type="file"] {
+  padding: 0.8rem;
+  display: flex;
+  background-color: hsla(213, 72%, 13%, 0.884);
+  color: #f4f4f4;
+  width: 18rem;
+  border-radius: 0.4rem;
+}
+
+.ask-ta button,
+.learn-one-on-one button,
+.content-section button {
+  border: 0;
+  margin-top: 1.8rem;
+  background-color: var(--primary-color);
+  font-size: 1.6rem;
+  font-family: "Muli", sans-serif;
+  transition: background 100ms ease-in-out;
+  display: inline-block;
+  border-radius: 0.4rem;
+  border: 2px solid var(--primary-color);
+  color: #fff;
+}
+
+.ask-ta button:hover,
+.ask-ta button:focus {
+  color: var(--primary-color);
+  background-color: #ececec;
+}
+
+/* ! Wow electromag style */
+
+.wow-electromag {
+  padding: 5rem 0 2rem;
+  background: #fefefe;
+}
+
+h2.the-next,
+h2.the-next-electromag,
+h2.still-pending {
+  font-size: 2.25rem;
+  margin-bottom: 0.6rem;
+  font-family: "MuliBold", sans-serif;
+  color: var(--slidebar-color);
+  text-transform: capitalize;
+}
+
+h2.the-next::after {
+  content: "";
+  background-color: var(--complementary-color);
+  height: 0.2rem;
+  width: 25rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.the-next-electromag::after {
+  content: "";
+  background-color: var(--complementary-color);
+  height: 0.2rem;
+  width: 18rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+/* h2.still-pending::after {
+  content: "";
+  background-color: var(--complementary-color);
+  height: 0.2rem;
+  width: 10rem;
+  display: block;
+  border-radius: 0.1rem;
+} */
+
+.wow-electromag p {
+  font-size: 1.645rem;
+  margin-top: 1rem;
+  color: var(--slidebar-color);
+}
+
+.wposts {
+  margin: 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 4rem;
+}
+
+.wpost img {
+  border-bottom: 0.1rem solid var(--complementary-color);
+
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+
+  padding: 0.4rem 0.1rem 0 0.1rem;
+  border-radius: 0.3rem;
+}
+
+.wpost {
+  color: var(--slidebar-color);
+  display: block;
+  height: 32rem;
+  width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  padding: 0.4rem 0.2rem 0 0.2rem;
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+
+.wpost h3 {
+  font-size: 1.645rem;
+  height: 16rem;
+  padding: 2rem 1.5rem;
+}
+.wpost-1-more {
+  position: absolute;
+  bottom: 2.2rem;
+  right: 2.8rem;
+}
+
+.wexplore-more {
+  display: inline-block;
+}
+.wexplore-more h2 {
+  color: var(--complementary-color);
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+/* ! Learn one-on-one style */
+
+.learn-one-on-one {
+  /* background-color: var(--primary-color); */
+  /* background-color: var(--complementary-color); */
+  background-color: #bd7817;
+  padding: 4rem 0 4rem;
+  margin-top: 4rem;
+}
+
+.learn-one-on-one .container {
+  height: 100%;
+  text-align: center;
+  max-width: 55rem;
+  margin: auto;
+}
+
+.learn-one-on-one h2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+.learn-one-on-one h2.in-kano::after {
+  content: "";
+  background-color: var(--complementary-color);
+  background-color: #e4982d;
+  height: 0.25rem;
+  width: 14rem;
+  display: block;
+  border-radius: 0.1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.learn-one-on-one h3 {
+  font-size: 1.645rem;
+  font-family: "Muli", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  /* color: var(--slidebar-color); */
+  margin-bottom: 3rem;
+  /* text-transform: lowercase; */
+}
+
+.learn-one-on-one .my-form {
+  height: 34rem;
+  margin: 2rem 0;
+}
+
+.learn-one-on-one .my-form a {
+  background-color: #fefefe;
+  display: inline-block;
+  border-radius: 0.4rem;
+}
+
+.learn-one-on-one .my-form img {
+  height: 16rem;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  object-fit: cover;
+}
+.learn-one-on-one .my-form a h3 {
+  font-family: "MuliBold", sans-serif;
+  font-weight: normal;
+
+  color: var(--slidebar-color);
+}
+
+.learn-one-on-one input[type="email"]:focus,
+.learn-one-on-one textarea:focus {
+  outline-style: none;
+  border: 1px solid var(--complementary-color);
+}
+
+.learn-one-on-one button,
+.content-section button,
+.quote-us-whatsapp {
+  font-family: "Muli", sans-serif;
+  background-color: var(--complementary-color);
+  border: 2px solid var(--complementary-color);
+  color: #fff;
+}
+
+.learn-one-on-one button:hover,
+.learn-one-on-one button:focus,
+.content-section button:hover,
+.content-section button:focus {
+  background-color: #ececec;
+  color: var(--complementary-color);
+  border: 2px solid var(--complementary-color);
+  cursor: pointer;
+}
+
+.quote-us-whatsapp {
+  margin: 0.4rem 0;
+  display: block;
+  background-color: var(--whatsapp-color);
+  border: 0;
+  padding: 0.8rem 0;
+  border-radius: 0.4rem;
+  border: 2px solid var(--whatsapp-color);
+  transition: all 150ms ease-in-out;
+}
+
+.quote-us-whatsapp:hover,
+.quote-us-whatsapp:focus {
+  background-color: #ececec;
+  color: var(--whatsapp-color);
+}
+
+/* ! Our post style  */
+
+h2.one-fold {
+  font-size: 2.25rem;
+  margin: 3rem 0 1rem;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+  color: var(--slidebar-color);
+}
+
+h2.one-fold::after {
+  content: "";
+  background-color: var(--telecoms-color);
+  height: 0.2rem;
+  width: 16rem;
+  display: block;
+  border-radius: 0.1rem;
+  color: var(--telecoms-color);
+}
+
+.one-fold-posts {
+  margin: 3.5rem 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.one-fold-post {
+  display: block;
+  height: 32rem;
+  max-width: 100%;
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0.4rem;
+  /* padding: 2rem 1.5rem; */
+  line-height: 1.5;
+  position: relative;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+.one-fold-post img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  border-bottom: 0.1rem solid var(--telecoms-color);
+
+  border-radius: 0.2rem;
+}
+.one-fold-post h3 {
+  height: 18rem;
+  font-size: 1.645rem;
+  color: var(--slidebar-color);
+  padding: 2rem 1.5rem;
+}
+
+.one-fold-post-1-more {
+  /* padding: 2rem 1.5rem; */
+  position: absolute;
+  bottom: 2.2rem;
+  right: 2.8rem;
+}
+
+.one-fold-explore-more {
+  display: inline-block;
+}
+
+.one-fold-explore-more h2 {
+  color: var(--telecoms-color);
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-family: "MuliBold", sans-serif;
+}
+
+/* !Media queries */
+
+@media (min-width: 770px) {
+  .hero .limit {
+    font-size: 2.8rem;
+  }
+
+  .hero .limit::after {
+    width: 17rem;
+  }
+
+  .hero .stuff {
+    font-size: 2.8rem;
+  }
+
+  .hero .stuff::after {
+    width: 7rem;
+  }
+
+  .hero .hero-say {
+    margin: 3rem 0;
+  }
+
+  .hero-btn {
+    font-size: 1.6rem;
+
+    padding: 1rem;
+  }
+
+  /* ! For Post */
+  h2.curious,
+  h2.one-fold,
+  h2.curious-more-r {
+    font-size: 2.8rem;
+    text-transform: capitalize;
+  }
+  .posts,
+  .wposts,
+  .one-fold-posts,
+  .posts-more-r {
+    margin: 3.5rem 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    gap: 5rem;
+    padding-bottom: 1.5rem;
+  }
+  .posts-more-r {
+    margin: 3.5rem 0 0rem;
+    padding-bottom: 2rem;
+  }
+  /* !Ask ta in media queries */
+
+  section.ask-ta {
+    /* margin: 5rem 0 ; */
+    padding: 5rem 0;
+
+    background-color: #152c49;
+  }
+
+  h2.do-you-want {
+    color: #fff;
+    font-size: 2.8rem;
+    margin-bottom: 0.4rem;
+    font-family: "MuliBold", sans-serif;
+  }
+
+  h2.do-you-want::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 0.2rem;
+    width: 24rem;
+    display: block;
+    border-radius: 0.1rem;
+  }
+
+  h2.problem-solved {
+    color: #fff;
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+    font-family: "MuliBold", sans-serif;
+  }
+
+  h2.problem-solved::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 0.2rem;
+    width: 16rem;
+    display: block;
+    border-radius: 0.1rem;
+  }
+
+  .ask-ta p {
+    margin: 5rem 0;
+    color: #fff;
+    font-size: 1.645rem;
+    line-height: 1.5;
+  }
+
+  /* ! Wow electromag style */
+
+  h2.the-next,
+  h2.the-next-electromag,
+  h2.still-pending {
+    font-size: 2.8rem;
+  }
+
+  h2.the-next::after {
+    width: 27rem;
+  }
+
+  h2.the-next-electromag::after {
+    width: 19rem;
+  }
+
+  h2.still-pending::after {
+    width: 12rem;
+  }
+
+  .wow-electromag p {
+    font-size: 1.645rem;
+    margin-top: 2rem;
+  }
+
+  /* !learn one-on-one */
+  .learn-one-on-one h2 {
+    font-size: 2.8rem;
+  }
+
+  .learn-one-on-one h3 {
+    font-size: 1.645rem;
+  }
+}
+
+.category-h1 {
+  font-size: 2.4rem;
+  margin: 0.5rem 0 2rem 0;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+
+.category-container {
+  margin: 3rem auto;
+}
+
+

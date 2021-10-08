@@ -1,0 +1,54 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Tooabstractive'
+
+enableEmoji = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+################################# Default parameters ##########################
+
+
+[params]
+  author = "Mohammad Abdul"
+  og_image = "/images/tabluelogopng.png"
+ 
+[build.environment]
+    TZ = "Africa/Lagos"
+  
+[markup]
+    [markup.goldmark.renderer]
+        unsafe=true
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+ 
+    [[menu.main]]
+        name = "Posts"
+        url = "/posts/"
+        weight = 2
+    [[menu.main]]
+        name = "Learn Circuit Analysis"
+        url = "/learnca/"
+        weight = 3
+  
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 4
+
+[related]
+    threshold = 0
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name= "categories"
+        weight = 100
+
+    [[related.indices]]
+        name= "date"
+        weight = 10

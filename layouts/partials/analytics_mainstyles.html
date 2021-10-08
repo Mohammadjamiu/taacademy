@@ -1,0 +1,99 @@
+
+{{ "<!--! This partial is basically for post page since it didnt go for baseoff-->" | safeHTML}}
+
+
+
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NWS8Z2G');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-207021925-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-207021925-1');
+</script>
+
+<!-- End Google Analytics -->
+
+
+{{ $layoutCss := "/css/layout.css" }}
+<link rel="stylesheet" href={{ $layoutCss }} />
+{{ $mainStyleCss := "/css/main-style.css" }}
+<link rel="stylesheet" href={{ $mainStyleCss }} />
+
+
+
+
+{{  if (eq .Layout "about") }}
+
+{{ $aboutPageStyle := "/css/aboutpage-style.css" }}
+<link rel="stylesheet" href={{ $aboutPageStyle }} />
+
+{{ else if (eq .Section "posts")  }}
+
+{{ $postPageStyle := "/css/postpage-style.css" }}
+<link rel="stylesheet" href={{ $postPageStyle }} />
+
+{{ else if (eq .Section "learnca") }}
+
+{{ $aboutPageStyle := "/css/aboutpage-style.css" }}
+<link rel="stylesheet" href={{ $aboutPageStyle }} />
+{{ $learncaStyle := "/css/learnca-style.css" }}
+<link rel="stylesheet" href={{ $learncaStyle }} />
+
+
+{{ else if (eq .Layout "credit") }}
+
+{{ $aboutPageStyle := "/css/aboutpage-style.css" }}
+<link rel="stylesheet" href={{ $aboutPageStyle }} />
+{{ $creditPageStyle := "/css/credit.css" }}
+<link rel="stylesheet" href={{ $creditPageStyle }} />
+
+{{ else if (eq .Layout "donate") }}
+
+{{ $aboutPageStyle := "/css/aboutpage-style.css" }}
+<link rel="stylesheet" href={{ $aboutPageStyle }} />
+
+{{ else if (eq .Page "taxonomy") }}
+
+{{ $aboutPageStyle := "/css/aboutpage-style.css" }}
+<link rel="stylesheet" href={{ $aboutPageStyle }} />
+
+
+{{ end }}
+
+
+
+<!--! META TAGS -->
+
+<meta charset="UTF-8" />
+{{ `<!-- Mobile responsive metadata -->` | safeHTML }}
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+{{ "<!-- Meta tags for verification -->" | safeHTML}}
+<meta name="google-site-verification" content="DNFwnzCDjmAJ66Py0Sc0GmACD0P9hzdN1u2-_wMrCJ0" />
+<meta name="fo-verify" content="47615df9-ca6b-4ddf-94a2-931bcf97ae50">
+
+<!--! Favicon -->
+{{ partial "favicon.html" .}}
+
+<meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+{{ with site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }}
+{{ hugo.Generator }}
+
+{{ "<!-- Appzi: Capture Insightful Feedback -->" | safeHTML}}
+<script async src="https://w.appzi.io/w.js?token=gUxl8"></script>
+{{ "<!-- End Appzi -->" | safeHTML}}

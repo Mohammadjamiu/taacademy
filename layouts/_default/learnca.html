@@ -1,0 +1,48 @@
+{{ define "main"}}
+<section class="ourpost-foreground">
+    <div class="container">
+      <h2>Learn Circuit Analysis</h2>
+      <h3>Hope to demystify it complexity.</h3>
+    </div>
+  </section>
+
+  <section class="lca-more-nuggets-box">
+    <div class="container">
+      <div class="our-post">
+    
+        <div class="posts">
+      
+    
+        {{range where .Pages.ByWeight "Layout" "eq" "learnca"  }} 
+       
+       
+      
+        <a href="{{ .RelPermalink }}" class="post post-1">
+            <img class="lca-image" src="{{ .Params.image }}" alt="{{.Params.alt}}" />
+            <div class="box-index">{{.Params.Weight}}</div>
+            <h3>
+              {{.Title}}
+            </h3>
+          
+            <div class="post-1-more">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+                <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+                  fill="#2d79e4" />
+              </svg>
+            </div>
+          </a>
+
+
+         
+    
+          {{end}}
+    
+           
+      
+    </div>
+    </div>
+    </div> 
+    </section>
+ 
+{{end}}
+

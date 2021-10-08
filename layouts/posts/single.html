@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{/* head */}}
+  <head>
+{{ partial "analytics_mainstyles" .}}
+
+{{ $learncaStyle := "/css/learnca-style.css" }}
+<link rel="stylesheet" href={{ $learncaStyle }} />
+{{ $articlesStyle := "/css/articles-styles.css" }}
+<link rel="stylesheet" href={{ $articlesStyle }} />
+
+{{ partial "metatags.html" .}}
+  </head>
+
+  <body>
+{{ partial "tagmanager_closetag.html" .}}
+{{ partial "header.html" .}}
+{{ block "main" . }}
+<section class="pagebody">
+  <div class="container">
+    <div class="frontline">
+      <h1>
+        {{ .Params.Title }}
+      </h1>
+      <!-- <h3 class="on-what-topic">Telecoms / Networking</h3> -->
+      <p class="descriptionfrontmatter">
+        {{ $readingTime := .ReadingTime }}
+        {{ $readingTime := print $readingTime "mins" | safeHTML }}
+      
+    <!-- {{.WordCount}} -->
+        By {{ .Params.author }} | #{{.Params.weight}} | {{ .Params.PostDate }} | 
+        <a class="on-what-topic" href="{{.Params.Categorylink}}">{{ delimit .Params.Categories "" }}</a> | Estimated Reading Time - {{ $readingTime }}
+       
+        
+       
+      </p>
+    </div>
+    <div class="bar-style"></div>
+    <div class="content">
+    {{ .Content }}
+
+</div>
+
+
+ 
+<a data-az-l="ed7eb2d8-ae9b-4f3c-a934-a97ebd6954fb" class="feedback-distinguish">Leave us with a
+  feedback if any
+  - on how this article helps or share your own thought.</a>
+
+
+  
+    
+       
+        <div class="readmore-recommend">
+        <br>
+          <h2>See Also</h2>
+          
+      {{ $related:=  (.Site.RegularPages.Related .) | first 4 }}
+     
+      {{ range $related }}
+          <ul class="ul-in-post">
+            <li><a class="links-to-others" href="{{.RelPermalink}}">{{.Title}}</a></li>
+           
+          </ul>
+          {{end}}
+        </div>
+
+
+
+
+
+  </div>
+
+  
+
+  <!-- <li><a href="{{.RelPermalink}}">{{.Title}}</a></li> -->
+
+
+
+
+</section>
+
+{{ end }}
+{{ partial "footer.html" . }}
+{{ partial "js.html" . }}
+   
+</body>
+
+</html>
+

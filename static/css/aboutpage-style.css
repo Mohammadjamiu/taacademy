@@ -1,0 +1,194 @@
+section.ourpost-foreground {
+  background-color: var(--slidebar-color);
+
+  padding: 6rem 0;
+}
+
+section.ourpost-foreground h2 {
+  font-size: 3rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+section.ourpost-foreground h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: capitalize;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+section.content-section {
+  margin-bottom: 3rem;
+}
+
+section.content-section h2.story-block {
+  margin-top: 4rem;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.story-block::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 12rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.story-block,
+h2.something-to-say {
+  font-size: 2.1rem;
+  margin: 4rem 0 2rem;
+  text-transform: capitalize;
+  font-family: "MuliBold", sans-serif;
+}
+
+h2.story-block::after,
+h2.something-to-say::after {
+  content: "";
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  width: 12rem;
+  display: block;
+  border-radius: 0.1rem;
+}
+
+h2.something-to-say:after {
+  width: 12rem;
+}
+
+p {
+  font-size: 1.62rem;
+}
+
+p.reason-one,
+p.reason-two,
+p.reason-three,
+p.reason-four {
+  display: block;
+}
+
+p.reason-one::before,
+p.reason-two::before,
+p.reason-three::before,
+p.reason-four::before {
+  font-size: 1.3rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: var(--primary-color);
+  height: 2rem;
+  width: 2.5rem;
+
+  border-radius: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+p.reason-one::before {
+  content: "1";
+}
+
+p.reason-two::before {
+  content: "2";
+}
+
+p.reason-three::before {
+  content: "3";
+}
+
+p.reason-four::before {
+  content: "4";
+}
+
+a.get-in-touch {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.more-info {
+  margin-bottom: 5rem;
+}
+
+/* ! get a quote form style */
+
+.content-section .my-form {
+  height: 30rem;
+}
+
+.content-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.content-section input,
+.content-section textarea {
+  width: 100%;
+}
+
+.content-section input[type="email"],
+.content-section textarea {
+  height: 4rem;
+  border-radius: 0.3rem;
+  border: 0px solid #091b31;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  font-family: "Muli", sans-serif;
+}
+
+.content-section textarea {
+  height: 12rem;
+  font-size: 1.45rem;
+}
+
+.content-section input[type="email"]:focus,
+.content-section textarea:focus {
+  outline-style: none;
+  border: 1px solid var(--complementary-color);
+}
+
+.content-section button {
+  border: 0;
+  margin-top: 1.8rem;
+  background-color: var(--complementary-color);
+  font-size: 1.45rem;
+  font-family: "Muli", sans-serif;
+  color: #fff;
+
+  display: inline-block;
+  transition: background 100ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.content-section button:hover,
+.content-section button:focus {
+  background-color: #ececec;
+  color: var(--complementary-color);
+  border: 2px solid var(--complementary-color);
+}
+
+/* ! donatepage style*/
+
+.donate .story-block::after {
+  width: 18rem;
+}
+
+.donate li {
+  color: var(--slidebar-color);
+  font-size: 1.5rem;
+  margin: 1rem 2rem;
+  list-style-type: disc;
+}
+
+.donate a {
+  color: var(--primary-color);
+}

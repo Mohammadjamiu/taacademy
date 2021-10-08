@@ -1,0 +1,111 @@
+{{ define "main"}}
+
+<section class="ourpost-foreground">
+  <div class="container">
+    <h2>All Posts</h2>
+    <h3>
+      Get the thoughts out post that can enhance and upskill knowledge.
+    </h3>
+  </div>
+</section>
+
+<div class="container ">
+  <!-- <h2 class="tto-h2">Categories:</h2> -->
+<div class="tag-to-others">
+
+<li><a class="tto-emag" href="/categories/electromagnetics/"> Electromagnetics </a></li>
+<li><a class="tto-pfe" href="/categories/productivity-and-guides/"> Productivity + guides</a></li>
+<li><a class="tto-pfe" href="/categories/circuit-analysis/"> Circuit Analysis </a></li>
+
+</div>
+
+</div>
+
+
+
+
+<section  class="our-post">
+
+    
+  <div class="container">
+    <h2 class="curious">It's Miscellaneous.</h2>
+    <div class="posts">
+    
+  
+      {{range where .Site.RegularPages.ByWeight.Reverse ".Type" "eq" "posts" }} 
+
+     
+     
+    
+      <a href="{{ .RelPermalink }}" class="post post-1">
+          <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+          <h3>
+            {{.Title}}
+          </h3>
+        
+          <div class="post-1-more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+              <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+                fill="#2d79e4" />
+            </svg>
+          </div>
+        </a>
+  
+        {{end}}
+  
+         
+    
+  </div>
+  </div>
+       
+  </section>
+
+
+    <section  class="wow-electromag">
+
+    
+<div class="container">
+  <h2 class="the-next">It's Still Abstractive.</h2>
+  <!-- <h1 class="category-h1">All posts for {{.Type | singularize }} "{{.Title}}"</h1> -->
+
+
+  <div class="wposts">
+  
+
+    
+   
+    {{range where .Site.RegularPages.ByWeight.Reverse ".Type" "eq" "em-post" }} 
+   
+  
+    <a href="{{ .RelPermalink }}" class="wpost wpost-1">
+        <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+        <h3>
+          {{.Title}}
+        </h3>
+      
+        <div class="wpost-1-more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+            <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+              fill="#E4982D" />
+          </svg>
+        </div>
+      </a>
+
+      {{end}}
+
+       
+  
+</div>
+</div>
+     
+</section>
+
+
+
+
+
+
+
+
+
+{{end}}

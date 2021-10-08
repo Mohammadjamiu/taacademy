@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<div class="container category-container">
+    
+    <h1 class="category-h1">All posts for {{.Type | singularize }} "{{.Title}}"</h1>
+   
+  {{ $newTitle := .Title}}
+  {{ $Electro := "Electromagnetics"}}
+
+
+      <section  class="our-post">
+
+      
+    <div class="posts">
+    
+
+        {{range .Data.Pages.ByWeight.Reverse }} 
+         {{ if eq $newTitle $Electro}}
+        <a href="{{ .RelPermalink }}" class="wpost post-1">
+            {{ else if ne $newTitle $Electro }}
+        <a href="{{ .RelPermalink }}" class="post post-1">
+            {{end}}
+            <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+            <h3>
+              {{.Title}}
+            </h3>
+            {{ if eq $newTitle $Electro}}
+            <div class="post-1-more">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+                <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+                  fill="#E4982D" />
+              </svg>
+            </div>
+            {{ else if ne $newTitle $Electro }}
+        <div class="post-1-more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+              <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+                fill="#2d79e4" />
+            </svg>
+          </div>
+        
+      {{end}}
+      
+          </a>
+          {{end}}
+    
+           
+      
+</div>
+       
+</section>
+</div>
+{{end}}

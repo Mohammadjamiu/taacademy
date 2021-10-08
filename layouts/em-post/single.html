@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{/* head */}}
+  <head>
+{{ partial "analytics_mainstyles" .}}
+
+{{ $learncaStyle := "/css/learnca-style.css" }}
+<link rel="stylesheet" href={{ $learncaStyle }} />
+{{ $articlesStyle := "/css/articles-styles.css" }}
+<link rel="stylesheet" href={{ $articlesStyle }} />
+
+{{ partial "metatags.html" .}}
+  </head>
+
+  <body>
+{{ partial "tagmanager_closetag.html" .}}
+{{ partial "header.html" .}}
+{{ block "main" . }}
+<section class="pagebody">
+  <div class="container">
+    <div class="frontline">
+      <h1>
+        {{ .Params.Title }}
+      </h1>
+      <!-- <h3 class="on-what-topic">Telecoms / Networking</h3> -->
+      <p class="descriptionfrontmatter">
+        {{ $readingTime := .ReadingTime }}
+        {{ $readingTime := print $readingTime "mins" | safeHTML }}
+      
+    
+        By {{ .Params.author }} | {{ .Params.PostDate }} | 
+        <a class="on-what-topic" href="{{.Params.Categorylink}}">#{{ delimit .Params.Categories "" }}</a> | Estimated Reading Time - {{ $readingTime }}
+       
+        
+       
+      </p>
+    </div>
+    <div class="bar-style"></div>
+    <div class="content">
+    {{ .Content }}
+
+</div>
+
+
+ 
+ 
+
+  </div>
+</section>
+
+{{ end }}
+{{ partial "footer.html" . }}
+{{ partial "js.html" . }}
+   
+</body>
+
+</html>
+

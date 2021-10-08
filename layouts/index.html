@@ -1,0 +1,164 @@
+{{ define "main"}}
+{{ partial "herosection.html" .}}
+
+<section class="about-ta-homepage">
+    <div class="container">
+
+        <h2 class="about-ta-homepage-headline">About TA</h2>
+        <p>
+            TA is here to demystify the two most abstractive electrical engineering course, <u>circuit analysis</u>
+            and <u>electromagnetics field</u> with a plus of how to be productive, use time effectively and learn
+            skills that payoff as a student.
+        </p>
+
+
+    </div>
+</section>
+
+
+<section class="our-post">
+    <div class="container">
+        <h2 class="curious">Being Curious</h2>
+        <div class="posts">
+
+            {{range where .Site.RegularPages.ByWeight.Reverse ".Type" "eq" "posts" }} 
+     
+     
+    
+      <a href="{{ .RelPermalink }}" class="post post-1">
+          <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+          <h3>
+            {{.Title}}
+          </h3>
+        
+          <div class="post-1-more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+              <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+                fill="#2d79e4" />
+            </svg>
+          </div>
+        </a>
+  
+        {{end}}
+
+         
+
+
+        </div>
+
+        <a href="/posts/"
+            style=" width: 20rem; margin: 3rem auto 1rem; display: flex; flex-direction: row; align-items: center; justify-content:center ;"
+            class="btn hero-btn">More <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="9"
+                    viewBox="0 0 9 15">
+                    <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z"
+                        transform="translate(13) rotate(90)" fill="#fff" />
+                </svg></span></a>
+
+
+    </div>
+</section>
+
+
+<section class="ask-ta">
+    <div class="container">
+        <h2 class="do-you-want">Do You Want Your Circuit</h2>
+        <h2 class="problem-solved">Analysis Problem Solved?</h2>
+        <p>
+            Feel free to send us a screeshot of your circuit problems via the
+            email and the TAs team will try to help by also giving some cool tips
+            if necessary.
+        </p>
+
+        <div class="my-form">
+            <h2>Let's Help You Out</h2>
+            <form action="https://formsubmit.co/10ae5eac92717d7297345978e4e3230b" method="post"
+                enctype="multipart/form-data">
+                <input type="email" name="email" placeholder="Your email" required />
+                <textarea name="message" cols="20" rows="10"
+                    placeholder="Tell us something about your question."></textarea>
+
+                <input type="file" name="attachment" accept="image/png, image/jpeg" placeholder="Upload file" />
+                <input type="hidden" name="_next" value="https://talaunch.netlify.com/thank-you.html" />
+                <button class="btn" type="submit">Submit</button>
+                
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="our-post-more-r">
+    <div class="container">
+        <h2 class="curious-more-r">More Resource</h2>
+        <div class="posts-more-r">
+
+            <a href="/categories/productivity-and-guides/" class="post-more-r post-1-more-r">
+                <div class="div-more-r">
+                    <div class="img-more-r-1">
+
+                    </div>
+                </div>
+                <h3>
+                    productivity tips & Useful guide for nerds and students
+                </h3>
+
+                <div class="post-1-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+                        <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z"
+                            transform="translate(13) rotate(90)" fill="#2d79e4" />
+                    </svg>
+                </div>
+            </a>
+
+
+           
+
+
+
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<section id="emag-for-now" class="wow-electromag">
+    <div class="container">
+        <h2 class="the-next">Next Abstractive Course,</h2>
+        <h2 class="the-next-electromag">Electromagnetics - Pending.</h2>
+
+        <p>But for the mean time lets have fun and learn.</p>
+
+        <div class="wposts">
+  
+
+            {{range where .Site.RegularPages.ByWeight.Reverse "Type" "eq" "em-post"}} 
+           
+           
+          
+            <a href="{{ .RelPermalink }}" class="wpost wpost-1">
+                <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+                <h3>
+                  {{.Title}}
+                </h3>
+              
+                <div class="wpost-1-more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+                    <path id="Polygon_2" data-name="Polygon 2" d="M7.5,0,15,13H0Z" transform="translate(13) rotate(90)"
+                      fill="#E4982D" />
+                  </svg>
+                </div>
+              </a>
+        
+              {{end}}
+        
+               
+          
+        </div>
+
+
+    </div>
+</section>
+{{ end}}
